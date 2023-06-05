@@ -1,5 +1,5 @@
 from addon import *
-import time
+
 
 
 def run_company_scrape_info(filename=None, column_name=None, keyword='market cap | valuation billion',
@@ -131,7 +131,7 @@ def run_company_scrape_info(filename=None, column_name=None, keyword='market cap
 
     return output_message
 
-# run_company_scrape_linkedin(filename='run_linkedin_crawl_info.xlsx', column_name=None,keyword='site:linkedin.com/in/ & linkedin ceo | founder', num_result=3, num_export=50, min_delay=min_delay_default)
+
 def run_company_scrape_linkedin(filename=None, column_name=None, keyword='site:linkedin.com/in/ & linkedin ceo | founder',
         num_result=3, num_export=5, min_delay=60):
     lib_sys.init_log()
@@ -264,7 +264,8 @@ def get_linkedin_info(browser, linkedin, min_delay):
         res['CONNECTION'] = ''
 
     try:
-        element_list = browser.find_elements_by_xpath('//a[@data-control-name="browsemap_profile"]')
+        # element_list = browser.find_elements_by_xpath('//a[@data-control-name="browsemap_profile"]')
+        element_list = browser.find_elements_by_xpath('//li[contains(@class, "browsemap")]/a')
         list_href = [i.get_attribute('href').split('/in/')[-1] for i in element_list]
         res['ALSO_VIEWED'] = ', '.join(list_href).replace('/', '')
 
@@ -290,36 +291,7 @@ def get_linkedin_info(browser, linkedin, min_delay):
     res['EMAIL'] = email
 
     return res
-# run_company_scrape_linkedin(filename='run_linkedin_crawl_info.xlsx', column_name=None,keyword='site:linkedin.com/in/ & linkedin ceo | founder', num_result=3, num_export=50, min_delay=min_delay_default)
-# run_linkedin_crawl_info('', '', 'ray_linkedin_crawl_info.xlsx')
-# run_company_scrape_linkedin_crawl_info(', '', filename=None, column_name=None, keyword='site:linkedin.com/in/ & linkedin ceo | founder',num_result=3, num_export=5, min_delay=60, country=None, num_run=100, send=False, headless=True):
-# run_company_scrape_linkedin_crawl_info('', '' , filename='run_linkedin_crawl_info.xlsx', column_name=None, keyword='site:linkedin.com/in/ & linkedin ceo | founder',   num_result=1, num_export=5, min_delay=60, country=None, num_run=100, send=False, headless=True)
-def run_company_scrape_linkedin_crawl_info(username, password, filename=None, column_name=None, keyword='site:linkedin.com/in/ & linkedin ceo | founder',
-        num_result=3, num_export=5, min_delay=60,):
 
-    run_company_scrape_linkedin(filename, column_name, keyword, num_result, num_export, min_delay)
-
-    filename2=filename.replace(".xlsx","__DONE.xlsx")
-    
-    program_dir = os.path.dirname(os.path.abspath(__file__))
-    folder_input_path=os.path.join(program_dir,"..\\..\\..\\","user_data\\")
-    folder_output_path=os.path.join(program_dir,"..\\..\\..\\","output\\")
-
-    file_name=folder_output_path+f'{filename2}'
-    df = pd.read_excel(file_name)
-    df = df.drop(columns=['title', 'info']) 
-
-    new_columns = ['FULL_NAME','JOB_TITLE','LOCALITY','CONNECTION','COUNTRY_CODE','CITY',	'STATE','COUNTRY']
-
-    for i, col in enumerate(new_columns):
-        df.insert(i+2, col, '')
-    df.to_excel(file_name,index=False)
-    data_excel=pd.read_excel(file_name)
-    file_path = os.path.join(folder_input_path+ f'{filename2}')
-    data_excel.to_excel(file_path,index=False)
-    time.sleep(10)
-    run_linkedin_crawl_info(username, password,filename= filename2,country=None, num_run=100, num_export=50,
-    send=False, headless=True, min_delay=min_delay_default)
 
 def run_linkedin_crawl_info(username, password, filename=None, country=None, num_run=100, num_export=50,
     send=False, headless=True, min_delay=min_delay_default):

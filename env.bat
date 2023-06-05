@@ -24,4 +24,4 @@ if '%errorlevel%' NEQ '0' (
     CD /D "%~dp0"
 :--------------------------------------
 
-conda create -n sam python=3.6 --y
+conda create -n sam_interns python=3.6 --y

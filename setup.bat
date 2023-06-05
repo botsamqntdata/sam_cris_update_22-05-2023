@@ -31,4 +31,4 @@ SET cmd12=pip install "%CD%\packages\dlib-19.21.0-cp36-cp36m-win_amd64.whl"
 SET cmd13=pip install "%CD%\packages\simpleaudio-1.0.4-cp36-cp36m-win_amd64.whl"
 SET cmd2=pip install -r "%CD%\requirements.txt"
 SET cmd3=rd /q/s %CD%\packages
-start cmd /k "activate sam & %cmd11% & %cmd12% & %cmd13% & %cmd2% & %cmd3% & pause & exit"
+start cmd /k "activate sam_interns & %cmd11% & %cmd12% & %cmd13% & %cmd2% & %cmd3% & pause & exit"

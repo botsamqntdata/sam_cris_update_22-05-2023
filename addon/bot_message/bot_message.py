@@ -1,7 +1,7 @@
 import argparse
 import time
 import traceback
-from datetime import datetime 
+from datetime import datetime
 from subprocess import Popen, list2cmdline, PIPE
 import sys
 from os.path import dirname, abspath
@@ -10,6 +10,7 @@ sys.path.insert(0, dirname(dirname(dirname(abspath(__file__)))))
 from lib import lib_sys
 from lib.util import logger as log
 from addon.bot_message.func.linkedin_message import *
+from addon.bot_message.lib_bot import bot_linkedin
 
 
 
@@ -75,33 +76,79 @@ if __name__ == '__main__':
 # ================================================================
     lib_sys.init_log()
 
-    log.printt('START Linkedin Bot Cronjob')
-    if service == 'run_linkedin_message':
-        log.printt('Linkedin Bot: START connecting via email..')
-        try:
-            run_linkedin_message(username, password, filename='cron_linkedin_connect_via_email.xlsx', headless=True, num_run=50,
-                    daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='connect_via_email', num_export=50)
-        except:
-            log.error(traceback.format_exc())
+    log.printt('Linkedin Bot Cronjob: START')
+    try:
+        bot_linkedin = bot_linkedin()
+        # bot_linkedin.authenticate(username, password)
 
-        if datetime.now().weekday() == 2: #Check if today is Wednesday
-            time.sleep(60)
-            log.printt('Linkedin Bot: START connecting with message..')
-            try:
-                run_linkedin_message(username, password, filename='cron_linkedin_connect.xlsx', headless=True, num_run=50,
-                        daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='connect', num_export=50)
-            except:
-                log.error(traceback.format_exc())
+    except:
+        log.error(traceback.format_exc())
+        raise
 
-        time.sleep(60)
-        log.printt('Linkedin Bot: START sending message UP..')
+    #Checking data cronjob exist on Drive
+    try:
+        cronjob_id = '1KbchDDbWMBO_QUXzaMHClJwGxkAO_zSVahJ43ZTbTdw'
+        worksheet_cronjob_data = util.gc.open_by_key(cronjob_id).worksheet_by_title('data_cron_linkedin')
+        df_cronjob_data = worksheet_cronjob_data.get_as_df()
+    except:
+        log.error(traceback.format_exc())
+        raise log.print('Linkedin Bot: Cronjob data not found')
+
+    for folder_id in df_cronjob_data['FOLDER_ID'].tolist():
         try:
-            run_linkedin_message(username, password, filename='cron_linkedin_UP.xlsx', headless=True, num_run=50,
-                    daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='send', num_export=50)
+            if service == 'run_linkedin_message':
+                log.printt('Linkedin Bot: Downloading data "cron_linkedin" from Drive')
+                bot_linkedin.download_data_cron_from_drive(folder_id)
+
+                log.printt('Linkedin Bot: START connecting via email..')
+                try:
+                    run_linkedin_message(username, password, filename='cron_linkedin_connect_via_email.xlsx', headless=True, num_run=0,
+                            daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='connect_via_email', num_export=50)
+                except:
+                    log.error(traceback.format_exc())
+
+                if (datetime.now().weekday() == 1) or (datetime.now().weekday() == 3): #Check if today is Tuseday or Thursday
+                    time.sleep(60)
+                    log.printt('Linkedin Bot: START connecting with message..')
+                    try:
+                        run_linkedin_message(username, password, filename='cron_linkedin_connect.xlsx', headless=True, num_run=50,
+                                daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='connect', num_export=50)
+                    except:
+                        log.error(traceback.format_exc())
+
+                time.sleep(60)
+                log.printt('Linkedin Bot: START sending message UP..')
+                try:
+                    run_linkedin_message(username, password, filename='cron_linkedin_UP.xlsx', headless=True, num_run=50,
+                            daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='send', num_export=50)
+                except:
+                    log.error(traceback.format_exc())
+
+                log.printt('Linkedin Bot: Uploading data "cron_linkedin" to Drive')
+                bot_linkedin.upload_data_cron_to_drive(folder_id)
+
+            if service == 'backup_cron_linkedin':
+                log.printt('Linkedin Bot: Creating backup data "cron_linkedin" on Drive')
+                bot_linkedin.backup_data_cron(folder_id)
+
+            if service == 'get_conversation':
+                log.printt('Linkedin Bot: Login to Linkedin')
+                bot_linkedin.authenticate(username, password)
+
+                log.printt('Linkedin Bot: Creating data Linkedin conversation')
+                _, path_output, filename = bot_linkedin.get_conversation(export=True, unread=False)
+
+                log.printt('Linkedin Bot: Uploading data Linkedin conversation to Drive')
+                conversation_folder_id = '1FchejLNU0z_IAldK3EqE5S01mMVK0Xxk'
+                bot_linkedin.upload_file_to_drive(filename, path_output, conversation_folder_id)
+
         except:
+            log.printt('Linkedin Bot: Error with service in folder %s' % folder_id)
             log.error(traceback.format_exc())
+            pass
 
     log.printt('Linkedin Bot Cronjob: DONE')
+
 
 
 

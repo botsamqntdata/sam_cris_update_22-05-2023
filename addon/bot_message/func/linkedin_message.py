@@ -2,20 +2,21 @@ from addon import *
 from addon.bot_message.lib_bot import *
 
 
-daily_quota_default = 100
 
-# conenct_linkedin(webdriver.Chrome(),'https://www.linkedin.com/in/tom-macdougall-705b221/','abc@gmail.com',"hello","hi","abc.txt",2)
+daily_quota_default = 100
 
 
 def connect_linkedin(browser, url, email, subject, message, file, min_delay):
     browser.get(url)
     time.sleep(random.uniform(min_delay, min_delay + 3))
 
-    # Customize message
+    #Customize message
     try:
-        panel_left = browser.find_element_by_xpath(
-            '//div[contains(@class, "pv-text-details__left-panel")]').text
+        panel_left = browser.find_element_by_xpath('//div[contains(@class, "pv-text-details__left-panel")]').text
         name = panel_left.split('\n')[0]
+        for i in [' (He/Him)', ' (She/Her)']:
+            name = name.replace(i, '')
+
     except:
         name = ''
         pass
@@ -23,9 +24,8 @@ def connect_linkedin(browser, url, email, subject, message, file, min_delay):
     subject = subject.replace('@subject', name)
     message = message.replace('@name', name)
 
-    # Connect stay in More
-    element_list = browser.find_elements_by_xpath(
-        '//button[contains(@aria-label, "More actions")]')
+    #Connect stay in More
+    element_list = browser.find_elements_by_xpath('//button[contains(@aria-label, "More actions")]')
     for elementID in element_list:
         try:
             elementID.click()
@@ -33,7 +33,7 @@ def connect_linkedin(browser, url, email, subject, message, file, min_delay):
         except:
             pass
 
-    # Clicks Connect button
+    #Clicks Connect button
     element_list = browser.find_elements_by_xpath('//*[text()="Connect"]')
     for elementID in element_list:
         try:
@@ -43,37 +43,21 @@ def connect_linkedin(browser, url, email, subject, message, file, min_delay):
             pass
 
     try:
-        browser.find_element_by_xpath(
-            '//button[contains(@aria-label, "Connect")]').click()
+        browser.find_element_by_xpath('//button[contains(@aria-label, "Connect")]').click()
     except:
         pass
 
     time.sleep(2)
 
-    # case update
-    if browser.find_elements_by_xpath("//button[contains(@aria-lable, 'Other')]"):
-        # Nếu có, nhấp vào nút "Other"
-        other_button = browser.find_element_by_xpath(
-            "//button[contains(@aria-lable, 'Other')]")
-        other_button.click()
-        try:
-            browser.find_element_by_xpath(
-                '//button[contains(@aria-label, "Connect")]').click()
-        except:
-            pass
-    # ----------end case
-
     try:
-        browser.find_element_by_xpath(
-            '//button[contains(@aria-label, "Add a note")]').click()
+        browser.find_element_by_xpath('//button[contains(@aria-label, "Add a note")]').click()
     except:
         pass
 
     actions = ActionChains(browser)
     for part in message.split('\n'):
         actions.send_keys(part)
-        actions.key_down(Keys.SHIFT).key_down(
-            Keys.ENTER).key_up(Keys.SHIFT).key_up(Keys.ENTER)
+        actions.key_down(Keys.SHIFT).send_keys(Keys.ENTER).key_up(Keys.SHIFT)
         time.sleep(2)
 
     actions.perform()
@@ -110,19 +94,14 @@ def connect_linkedin(browser, url, email, subject, message, file, min_delay):
 def connect_linkedin_via_email(browser, email_list, min_delay):
     browser.get('https://www.linkedin.com/mynetwork/import-contacts/iwe/')
     time.sleep(random.uniform(min_delay, min_delay + 3))
-    browser.find_element_by_xpath(
-        '//textarea[contains(@name, "message")]').click()
+    browser.find_element_by_xpath('//textarea[contains(@name, "message")]').click()
 
     actions = ActionChains(browser)
     actions.send_keys(email_list)
     actions.perform()
     time.sleep(2)
 
-    browser.find_element_by_xpath(
-        '//button[contains(@id, "send-iwe")]').click()
-
-# run_linkedin_message('henry.qtdata@gmail.com', '', 'Paul_Trade_Credit_Financial_linkedin-message.xlsx', ignore_error = True  )
-
+    browser.find_element_by_xpath('//button[contains(@id, "send-iwe")]').click()
 
 def send_linkedin(browser, url, email, subject, message, file, min_delay):
     browser.get(url)
@@ -218,16 +197,15 @@ def send_linkedin(browser, url, email, subject, message, file, min_delay):
     return name
 
 
+
 def disconnect_linkedin(browser, url, min_delay):
     browser.get(url)
     time.sleep(random.uniform(min_delay, min_delay + 3))
 
-    browser.find_element_by_class_name(
-        'pv-s-profile-actions__overflow-toggle').click()
+    browser.find_element_by_class_name('pv-s-profile-actions__overflow-toggle').click()
     time.sleep(2)
 
-    browser.find_element_by_class_name(
-        'pv-s-profile-actions--disconnect').click()
+    browser.find_element_by_class_name('pv-s-profile-actions--disconnect').click()
     time.sleep(2)
 
 
@@ -271,7 +249,7 @@ def start_bot_linkedin(browser, output_name, run_succeed, df_message, df_data, d
                 pass
 
             ii += 1
-            if ii == len_message:  # reset to first content
+            if ii == len_message: #reset to first content
                 ii = 0
 
             try:
@@ -295,7 +273,7 @@ def start_bot_linkedin(browser, output_name, run_succeed, df_message, df_data, d
 
                 run_succeed += 1
 
-                # Sleep to make sure everything loads
+                #Sleep to make sure everything loads
                 time.sleep(random.uniform(min_delay + 3, min_delay + 7))
 
             except Exception as e:
@@ -311,8 +289,7 @@ def start_bot_linkedin(browser, output_name, run_succeed, df_message, df_data, d
                 if (idx + 1) % num_export == 0:
                     [os.remove(os.path.join(util.path_output, f)) for f in os.listdir(util.path_output)
                         if f.find(output_name) != -1]
-                    path_user = util.path_output + \
-                        output_name + '__temp_%s.xlsx' % (idx + 1)
+                    path_user = util.path_output + output_name + '__temp_%s.xlsx' % (idx + 1)
                     export_file(df_data, path_user)
 
             else:
@@ -327,7 +304,7 @@ def start_bot_linkedin(browser, output_name, run_succeed, df_message, df_data, d
 
 
 def run_linkedin_message(username, password, filename=None, headless=True, num_run=daily_quota_default,
-                         daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='connect_via_email', num_export=50):
+        daily_quota=daily_quota_default, ignore_error=False, min_delay=min_delay_default, func='connect_via_email', num_export=50):
     service = 'run_linkedin_message'
     run_succeed = 0
 
@@ -336,8 +313,7 @@ def run_linkedin_message(username, password, filename=None, headless=True, num_r
     output_name = filename.split('.xlsx')[0]
 
     df_message, df_data, df_notsent, \
-        df_limit, daily_sent = read_data_message(
-            username, path, service, num_run, ignore_error, daily_quota)
+        df_limit, daily_sent = read_data_message(username, path, service, num_run, ignore_error, daily_quota)
 
     browser = init_browser(headless=headless)
     try:
@@ -353,15 +329,15 @@ def run_linkedin_message(username, password, filename=None, headless=True, num_r
         log.printt('Linkedin Bot: START connecting..\n')
 
     run_succeed, df_data = start_bot_linkedin(browser, output_name, run_succeed, df_message, df_data,
-                                              df_notsent, func, min_delay, num_export)
+                               df_notsent, func, min_delay, num_export)
 
-    # Switch content
-    df_message = df_message.apply(np.roll, shift=1)
+    #Switch content
+    df_message = df_message.apply(np.roll, shift = 1)
 
-    # Update data log
+    #Update data log
     update_log_limit(df_limit, username, run_succeed, daily_sent)
 
-    # Update results
+    #Update results
     export_data_message(path, df_message, df_data)
 
     log.printt('Linkedin Bot: DONE.')

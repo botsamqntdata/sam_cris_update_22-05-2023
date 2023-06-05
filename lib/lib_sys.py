@@ -1,6 +1,6 @@
 import PySimpleGUI as sg
 import os, sys, io
-import subprocess, psutil, signal,shutil
+import subprocess, psutil, signal
 import pydoc
 from apiclient.http import MediaIoBaseDownload
 from datetime import datetime, timedelta
@@ -20,12 +20,12 @@ def hi():
     return 'Hi there!'
 
 
-def init_log(log_type='print', logdir=None):
+def init_log(log_type='print', logdir=None):    
     if logdir is None:
         LOGDIR = util.path_log + '/'
     else:
         LOGDIR = logdir
-
+    
     if log_type == 'print':
         PRINT_VERBOSITY = 'info'
         # Create log file
@@ -33,12 +33,12 @@ def init_log(log_type='print', logdir=None):
     else:
         LOG_VERBOSITY   = 'debug'
         log.set_log_verbosity(LOG_VERBOSITY)
-
+    
     log.enable_colors()
     log.enable_logging()
     makedirs(LOGDIR)
     log.set_logdir(LOGDIR)
-
+    
     log.printt('======== %s __ %s ========' % (
         sys._getframe(1).f_code.co_name, datetime.now().strftime('%d-%b-%y %H:%M:%S').upper())
     )
@@ -46,7 +46,7 @@ def init_log(log_type='print', logdir=None):
 
 def delete_oldbackup(num_day = 30):
     log = ''
-
+    
     try:
         for dirpath, dirnames, filenames in os.walk(util.path_note):
            for file in filenames:
@@ -58,10 +58,10 @@ def delete_oldbackup(num_day = 30):
         log += 'DONE.'
     except:
         log += "'{}': error\n".format(curpath)
-
+    
     return log
-
-
+    
+            
 def get_filepath(filename_extension = 'all'):
     try:
         if filename_extension == 'xlsx':
@@ -122,7 +122,7 @@ def list_spreadsheet_by_folderid(folder_id):
     results = util.drive_service.files().list(q = "mimeType='application/vnd.google-apps.spreadsheet' and parents in '"\
         + folder_id + "' and trashed = false", fields = "nextPageToken, files(id, name)").execute()
     items = results.get('files', [])
-
+    
     return items
 
 
@@ -130,16 +130,16 @@ def list_file_by_folderid(folder_id):
     results = util.drive_service.files().list(q = "mimeType!='application/vnd.google-apps.folder' and parents in '"\
         + folder_id + "' and trashed = false", fields = "nextPageToken, files(id, name)", pageSize = 400).execute()
     items = results.get('files', [])
-
-    return items
+        
+    return items 
 
 
 def list_folder_by_folderid(folder_id):
     results = util.drive_service.files().list(q = "mimeType='application/vnd.google-apps.folder' and parents in '"\
         + folder_id + "' and trashed = false", fields = "nextPageToken, files(id, name)", pageSize = 400).execute()
     items = results.get('files', [])
-
-    return items
+        
+    return items      
 
 
 def get_file_by_fileid(file_dict, path):
@@ -149,7 +149,7 @@ def get_file_by_fileid(file_dict, path):
     done = False
     while done is False:
         status, done = downloader.next_chunk()
-
+    
     with io.open(path + file_dict['name'], 'wb') as f:
         fh.seek(0)
         f.write(fh.read())
@@ -161,22 +161,10 @@ def create_folder(service, parent_id, filename):
         'mimeType': 'application/vnd.google-apps.folder',
         'parents': [parent_id]
     }
-
+    
     folder_id = service.files().create(body=file_metadata, fields='id').execute()['id']
-
+    
     return folder_id
-
-
-def create_spreadsheet(service, parent_id, filename):
-    file_metadata = {
-        'name': filename,
-        'mimeType': 'application/vnd.google-apps.spreadsheet',
-        'parents': [parent_id]
-    }
-
-    spreadsheet_id = service.files().create(body=file_metadata, fields='id').execute()['id']
-
-    return spreadsheet_id
 
 
 def search_folderid(parent_id, keyword):
@@ -186,7 +174,7 @@ def search_folderid(parent_id, keyword):
         folder_id = [item['id'] for item in list_folder if item['name'].find(keyword) != -1][0]
     except:
         pass
-
+    
     return folder_id
 
 
@@ -202,11 +190,11 @@ def trash_file(folder_id, keyword=None):
     list_file = list_file_by_folderid(folder_id)
     if keyword is not None:
         list_file = [file for file in list_file if file['name'].find(keyword) != -1]
-
+    
     batch = util.service_v2.new_batch_http_request(callback=trash_func)
     for idx, file in enumerate(list_file):
         batch.add(util.service_v2.files().trash(fileId=file['id']))
-
+            
         if ((idx + 1) % 100 == 0) or ((idx+1) == len(list_file)):
             batch.execute()
             time.sleep(5)
@@ -221,13 +209,13 @@ def move_file(from_folder_id, to_folder_id, keyword=None, copy=False):
         else:
             # Do something with the response
             pass
-
+        
     list_file = list_file_by_folderid(from_folder_id)
     if keyword is not None:
         list_file = [file for file in list_file if file['name'].find(keyword) != -1]
-
+    
     batch = util.drive_service.new_batch_http_request(callback=move_func)
-
+    
     print('start')
     for idx, file in enumerate(list_file):
         previous_parents = from_folder_id
@@ -246,41 +234,26 @@ def move_file(from_folder_id, to_folder_id, keyword=None, copy=False):
                 fields='id, parents'
             )
         )
-
+            
         if ((idx + 1) % 100 == 0) or ((idx+1) == len(list_file)):
             batch.execute()
             print('batch')
             time.sleep(5)
             batch = util.drive_service.new_batch_http_request(callback=move_func)
+    
 
-
-def backup_tempo(to_folder_name):
-    '''
-    to_folder_name is used as keyword to search tempo data.
-    '''
+def backup_tempo(keyword):
     backup_tempodata_id = search_folderid(util.tempodata_id, 'backup_tempodata')
     backup_id = search_folderid(backup_tempodata_id, util.username)
-
-    to_folder_id = search_folderid(backup_id, to_folder_name)
+    
+    to_folder_id = search_folderid(backup_id, keyword)
     if to_folder_id == '':
-        to_folder_id = create_folder(util.drive_service, backup_id, to_folder_name)
-
+        to_folder_id = create_folder(util.drive_service, backup_id, keyword)
+    
     print('move')
-    move_file(util.tempo_id, to_folder_id, keyword=to_folder_name, copy=False)
+    move_file(util.tempo_id, to_folder_id, keyword=keyword, copy=False)
 
-
-def insert_dataframe_to_googlesheet(spreadsheet_id, sheetname, data, start=None, copy_head=True):
-    sheet = util.gc.open_by_key(spreadsheet_id).worksheet_by_title(sheetname)
-
-    if start is None:
-        #Get first empty row
-        cells = sheet.get_all_values(include_tailing_empty_rows=False, include_tailing_empty=False, returnas='matrix')
-        last_row = len(cells)
-        start = 'A' + str(last_row)
-        copy_head = False #Remove header if append
-
-    sheet.set_dataframe(data, start, copy_head=copy_head, extend=True, escape_formulae=True)
-
+     
 
 def cpu_count():
     ''' Returns the number of CPUs in the system
@@ -289,21 +262,21 @@ def cpu_count():
     if sys.platform == 'win32':
         try:
             num = int(os.environ['NUMBER_OF_PROCESSORS'])
-
+            
         except (ValueError, KeyError):
             pass
-
+        
     elif sys.platform == 'darwin':
         try:
             num = int(os.popen('sysctl -n hw.ncpu').read())
-
+            
         except ValueError:
             pass
-
+        
     else:
         try:
             num = os.sysconf('SC_NPROCESSORS_ONLN')
-
+            
         except (ValueError, OSError, AttributeError):
             pass
 
@@ -361,29 +334,29 @@ def exec_commands(cmds, cpu=4):
 #                    time.sleep(deltatime.seconds)
 #                else:
 #                    time.sleep(5)
+                    
 
-
-def execute_command(display_name, command, *args, communicate = False):
+def execute_command(display_name, command, *args, communicate = False):      
     try:
 #        print(command + ' ' + ' '.join(list(args)))
         p = psutil.Popen(
             command + ' ' + ' '.join(list(args)),
             shell = True, stdout = subprocess.PIPE, stderr = subprocess.PIPE
-        )
+        )      
 
-        if communicate:
-            out, err = p.communicate()
-            if out:
-                print(out.decode('utf-8'))
-            if err:
+        if communicate:      
+            out, err = p.communicate()      
+            if out:      
+                print(out.decode('utf-8'))      
+            if err:      
                 print(err.decode('utf-8'))
-
+                
         print('{} start: {}'.format(display_name, p.pid))
-
+        
     except Exception as e:
         print(e)
         pass
-
+    
     return p.pid
 
 
@@ -401,9 +374,9 @@ def kill_processtree(display_name, pid, sig = signal.SIGTERM, include_parent = T
             children.append(parent)
         for p in children:
             p.send_signal(sig)
-
+        
         print('{} kill: {}'.format(display_name, pid))
-
+        
     except Exception as e:
         print(e)
         pass

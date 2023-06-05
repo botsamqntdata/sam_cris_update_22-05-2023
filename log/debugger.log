@@ -1,0 +1,171 @@
+2022-04-30 07:47:37 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 07:48:33 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 07:55:52 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 08:02:24 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 08:13:58 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 08:15:37 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 08:29:06 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 08:33:04 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 09:00:24 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 14:04:46 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 14:06:59 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 15:44:18 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-04-30 15:58:10 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-05-04 08:24:59 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-05-05 17:04:36 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-05-07 10:07:11 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-05-07 10:34:00 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-05-07 11:06:30 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3553, in update
+    self._TKOut.output.insert(tk.END, value)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3272, in insert
+    self.tk.call((self._w, 'insert', index, chars) + args)
+_tkinter.TclError: character U+1d4e3 is above the range (U+0000-U+FFFF) allowed by Tcl
+
+2022-05-30 09:07:57 WARNING Traceback (most recent call last):
+  File "debugger.py", line 67, in run_popup_debugger
+    window.Element('-OUT-').update('{}\n'.format(result))
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/PySimpleGUI/PySimpleGUI.py", line 3552, in update
+    self._TKOut.output.delete('1.0', tk.END)
+  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/tkinter/__init__.py", line 3139, in delete
+    self.tk.call(self._w, 'delete', index1, index2)
+_tkinter.TclError: invalid command name ".!toplevel.!frame2.!frame.!text"
+

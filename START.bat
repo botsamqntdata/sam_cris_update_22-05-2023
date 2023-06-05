@@ -25,4 +25,4 @@ if '%errorlevel%' NEQ '0' (
 :--------------------------------------
 
 SET cmd1=python %CD%\debugger.py %*
-start cmd /k "activate sam & %cmd1% & pause & exit"
+start cmd /k "activate sam_interns & %cmd1% & pause & exit"

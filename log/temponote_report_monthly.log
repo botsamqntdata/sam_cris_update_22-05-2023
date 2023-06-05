@@ -1,0 +1,774 @@
+Connecting to Server main..
+======== <module> __ 01-MAY-22 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-05-01T08:01:17 lib/cron_tempo.py ERROR] {'id': '1LwQLV6khron2FWY-YPPB6ccvPlsYLGh8', 'name': 'note_manager09.qtdata_Linh_07-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:19 lib/cron_tempo.py ERROR] {'id': '14GPBAGWIdvGQNq8tkENUI_6fWQMTPInJ', 'name': 'note_manager09.qtdata_Linh_06-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:20 lib/cron_tempo.py ERROR] {'id': '1tMAuiVCYdKA-_Sud68tK87LMlHpLhgm5', 'name': 'note_manager09.qtdata_Linh_05-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:21 lib/cron_tempo.py ERROR] {'id': '1ZE8IMZ2Fj950JTl73zHtoARCSAT-7yf1', 'name': 'note_manager09.qtdata_Linh_04-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:22 lib/cron_tempo.py ERROR] {'id': '1YW5oigLRFT0CGOrmzRRlhcNJGf_gY8i4', 'name': 'note_manager09.qtdata_Linh_02-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:23 lib/cron_tempo.py ERROR] {'id': '1cI0we2tPE39M6j7n5I3hSL_9QqgQpwSG', 'name': 'note_manager09.qtdata_Linh_01-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:39 lib/cron_tempo.py ERROR] {'id': '1rqpTyqfqH5z5vyyARMbhwFoQOq9GxME9', 'name': 'action_manager09.qtdata_Linh_07-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:41 lib/cron_tempo.py ERROR] {'id': '1ehQ0fFFz4SKA1S16SvyTV0rJiIX9rdk_', 'name': 'action_manager09.qtdata_Linh_06-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:42 lib/cron_tempo.py ERROR] {'id': '1bNyUI_tMjj62uf57ayMbSjFdoC5JhGeO', 'name': 'action_manager09.qtdata_Linh_05-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:43 lib/cron_tempo.py ERROR] {'id': '1s5FaN7KYTVyeoDTr1l9jpJuDekZt2mHJ', 'name': 'action_manager09.qtdata_Linh_04-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:44 lib/cron_tempo.py ERROR] {'id': '1MEa4I5yIye5IW2bHd3uWMwSrT0gDkKEp', 'name': 'action_manager09.qtdata_Linh_02-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:45 lib/cron_tempo.py ERROR] {'id': '1xcbYsy6EcLFs_cWaVOcMpsViRRlVwM8i', 'name': 'action_manager09.qtdata_Linh_01-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:48 lib/cron_tempo.py ERROR] {'id': '1QO4Aa2rA00jnA_evlYyH2LTmkWaU-nmm', 'name': 'todo_manager09.qtdata_Linh_26-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:49 lib/cron_tempo.py ERROR] {'id': '1z8YpTaWTIhLkrrZX3zJ2v2MzEF0LsooD', 'name': 'todo_manager09.qtdata_Linh_23-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:50 lib/cron_tempo.py ERROR] {'id': '1D6z7kj2DCjvo2AyBSBsOiQbaVyYqRL3N', 'name': 'todo_manager09.qtdata_Linh_22-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:50 lib/cron_tempo.py ERROR] {'id': '1Im44H4Gv7cu1tpWoY8IquSUVZ6Vs3-pg', 'name': 'todo_manager09.qtdata_Linh_21-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:51 lib/cron_tempo.py ERROR] {'id': '1Gb9RZ76bE5h9AgXYVD87kSxe8BKNd6Bx', 'name': 'todo_manager09.qtdata_Linh_20-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:52 lib/cron_tempo.py ERROR] {'id': '1NmFgzV-12NCUbLevA0wNFKO-TsPCeFfL', 'name': 'todo_manager09.qtdata_Linh_19-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:53 lib/cron_tempo.py ERROR] {'id': '1QkBTaw9PWCYqccilL9z6BhETXSKZPfzh', 'name': 'todo_manager09.qtdata_Linh_18-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:54 lib/cron_tempo.py ERROR] {'id': '1Y6-0oXTcj6SVGjZMQFJoKEmTd11JnRSC', 'name': 'todo_manager09.qtdata_Linh_15-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:55 lib/cron_tempo.py ERROR] {'id': '1PxZqRZ3yTuy_jCQnz_GZcJg2fHD_9FOg', 'name': 'todo_manager09.qtdata_Linh_14-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:56 lib/cron_tempo.py ERROR] {'id': '1NLaA4rvfSQATtemnqv6JWXYskQ11fcD_', 'name': 'todo_manager09.qtdata_Linh_13-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:57 lib/cron_tempo.py ERROR] {'id': '1SsNaRydw995kTMga6a1Wvzf34iiE8p6y', 'name': 'todo_manager09.qtdata_Linh_12-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:58 lib/cron_tempo.py ERROR] {'id': '1pVLE3-hjI7E3KeRusZaVuXw_ldZ2kIUs', 'name': 'todo_manager09.qtdata_Linh_09-APR-22.json'} __ [0m
+[91m[2022-05-01T08:01:59 lib/cron_tempo.py ERROR] {'id': '12AAz9ETW_ay-rfiy2U8kdmedClxYxxCJ', 'name': 'todo_manager09.qtdata_Linh_08-APR-22.json'} __ [0m
+[91m[2022-05-01T08:02:00 lib/cron_tempo.py ERROR] {'id': '11BEhdUW3FvNPnYSKATHR7Svk4qlwK9eN', 'name': 'todo_manager09.qtdata_Linh_07-APR-22.json'} __ [0m
+[91m[2022-05-01T08:02:01 lib/cron_tempo.py ERROR] {'id': '16GcNNZ8oGOil42oIql_3-SP0cT7xYunn', 'name': 'todo_manager09.qtdata_Linh_06-APR-22.json'} __ [0m
+[91m[2022-05-01T08:02:02 lib/cron_tempo.py ERROR] {'id': '1NyucgAaMoYhHpRD82FUhdZptf9ok17PT', 'name': 'todo_manager09.qtdata_Linh_05-APR-22.json'} __ [0m
+[91m[2022-05-01T08:02:03 lib/cron_tempo.py ERROR] {'id': '1KDEZeape1v4BmSFe6CTl5ywnMbjXKiDL', 'name': 'todo_manager09.qtdata_Linh_04-APR-22.json'} __ [0m
+[91m[2022-05-01T08:02:04 lib/cron_tempo.py ERROR] {'id': '1od41c_FKo1-fUOTPoMaCsXPHu_pGZ0j-', 'name': 'todo_manager09.qtdata_Linh_02-APR-22.json'} __ [0m
+[91m[2022-05-01T08:02:05 lib/cron_tempo.py ERROR] {'id': '1PeR9j6BkvlYZB4r25th5MHmLw3tZeKYx', 'name': 'todo_manager09.qtdata_Linh_01-APR-22.json'} __ [0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/bot_MAL/note_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:22 lib/cron_tempo.py ERROR] ./output/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/bot_MAL/action_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/bot_MAL/todo_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-05-01T08:06:23 lib/cron_tempo.py ERROR] ./output/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+Email has been sent successfuly.
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-JUN-22 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-06-01T08:01:58 lib/cron_tempo.py ERROR] {'id': '1JiPhr2ABLT-aKy6nRidCS2sigAaS5jbn', 'name': 'note_manager09.qtdata_Linh_26-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:01:59 lib/cron_tempo.py ERROR] {'id': '11XEcuwT0GdrgeRHgZhy-gn0e0FuNRuhS', 'name': 'note_manager09.qtdata_Linh_25-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:00 lib/cron_tempo.py ERROR] {'id': '1U5a9rlatDE2sjI12Xa3-fx4Fi9Ojp8pO', 'name': 'note_manager09.qtdata_Linh_24-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:01 lib/cron_tempo.py ERROR] {'id': '1ZJUUh3EmYvmab164giDIwF-np_o3GEXD', 'name': 'note_manager09.qtdata_Linh_21-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:03 lib/cron_tempo.py ERROR] {'id': '1XJdK4D_irEucxqzk2VyI0G1_3TCTclvA', 'name': 'note_manager09.qtdata_Linh_20-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:04 lib/cron_tempo.py ERROR] {'id': '1If1tDGMyz1jkTAqXQfMMsVoqVInOPVwK', 'name': 'note_manager09.qtdata_Linh_19-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:05 lib/cron_tempo.py ERROR] {'id': '1DMkKRK7ScG4EnfZ9viCmfueSs2LRfy7_', 'name': 'note_manager09.qtdata_Linh_17-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:06 lib/cron_tempo.py ERROR] {'id': '1fchv0x8Tg8OdFjwAwBAmbj8zO1rLSPsN', 'name': 'note_manager09.qtdata_Linh_16-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:07 lib/cron_tempo.py ERROR] {'id': '1az73tG5a8COM9PK6T-Vn-AKODSu6pKOH', 'name': 'note_manager09.qtdata_Linh_14-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:09 lib/cron_tempo.py ERROR] {'id': '1eaEDFVU1Kgjyx8NVZ9RKGgcPdy9x3wWG', 'name': 'note_manager09.qtdata_Linh_13-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:10 lib/cron_tempo.py ERROR] {'id': '1_FeuMJUMoGC80fBVNTk1oNWISlhKOaQ-', 'name': 'note_manager09.qtdata_Linh_12-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:11 lib/cron_tempo.py ERROR] {'id': '14Ox1J4v_c5WSiBfyrTNi1ZjM6lxBboWx', 'name': 'note_manager09.qtdata_Linh_11-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:12 lib/cron_tempo.py ERROR] {'id': '1WQaG7XhiZqBaSmQ8icuG_yHBqn4RkQ9e', 'name': 'note_manager09.qtdata_Linh_10-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:13 lib/cron_tempo.py ERROR] {'id': '1X7sRQrP5dt7oHJskkNrua-6uXuJNSmIB', 'name': 'note_manager09.qtdata_Linh_09-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:14 lib/cron_tempo.py ERROR] {'id': '1NGCuvH8_xYfN0o8ubXywBMUCGP8lQidl', 'name': 'note_manager09.qtdata_Linh_07-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:15 lib/cron_tempo.py ERROR] {'id': '1gn7H2z1y-0Zn61jg2BD3YXXEXavNRJ5T', 'name': 'note_manager09.qtdata_Linh_06-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:16 lib/cron_tempo.py ERROR] {'id': '1x_tU1ZzFKidKIwA-R1MxTGpxpaAoUJtc', 'name': 'note_manager09.qtdata_Linh_05-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:18 lib/cron_tempo.py ERROR] {'id': '1f_dRWHaIv7ahpzWZ4OL-ZSVN61oi6_-r', 'name': 'note_manager09.qtdata_Linh_04-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:19 lib/cron_tempo.py ERROR] {'id': '1B43v9vRpyWPFxkX_MYjlBnzFZLdTbnPY', 'name': 'note_manager09.qtdata_Linh_03-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:26 lib/cron_tempo.py ERROR] {'id': '1mkY9Ja27t-DBE6FbCJCG-LvYlPW7ojan', 'name': 'action_manager09.qtdata_Linh_25-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:27 lib/cron_tempo.py ERROR] {'id': '1VyoPip5y-iO-irCBCDtT55IUwshVB3Vj', 'name': 'action_manager09.qtdata_Linh_24-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:28 lib/cron_tempo.py ERROR] {'id': '1NBQExjQa4pyXnm1Imi40QuCtGyoAJHOX', 'name': 'action_manager09.qtdata_Linh_21-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:29 lib/cron_tempo.py ERROR] {'id': '1X38RbTQpDUwZzzWO30nwhQSO-pDVsAAF', 'name': 'action_manager09.qtdata_Linh_20-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:30 lib/cron_tempo.py ERROR] {'id': '167cq6tcNxeAdPRpQQqCRlpmgOF901vUF', 'name': 'action_manager09.qtdata_Linh_19-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:31 lib/cron_tempo.py ERROR] {'id': '19hU8Ioce0Gkp2eHG_Trg9HuWeui-f-s6', 'name': 'action_manager09.qtdata_Linh_17-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:32 lib/cron_tempo.py ERROR] {'id': '12Hoj-TB6VlEg21TPXyts48ftvUXoqvYj', 'name': 'action_manager09.qtdata_Linh_16-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:33 lib/cron_tempo.py ERROR] {'id': '1rrwIEz9ukJHo-fw57m9F8J6oBIGluB4G', 'name': 'action_manager09.qtdata_Linh_14-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:34 lib/cron_tempo.py ERROR] {'id': '1E_k58RJXXNLYd8bt5lTOtkAvcEWaxgdY', 'name': 'action_manager09.qtdata_Linh_13-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:35 lib/cron_tempo.py ERROR] {'id': '10e-hHsrTaIPTQ1pUSnWnF8Nf-cNcFG0S', 'name': 'action_manager09.qtdata_Linh_12-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:36 lib/cron_tempo.py ERROR] {'id': '1y1CkVh--9oKFw4StndevTEc49Tv1p1Qi', 'name': 'action_manager09.qtdata_Linh_11-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:37 lib/cron_tempo.py ERROR] {'id': '1m-g-qg2vFrSnSBHIzUu94NJtPebU4X1t', 'name': 'action_manager09.qtdata_Linh_10-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:38 lib/cron_tempo.py ERROR] {'id': '1NSOLql2JdWJnDyOPSdLZrmJ2zHHYkbdU', 'name': 'action_manager09.qtdata_Linh_09-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:39 lib/cron_tempo.py ERROR] {'id': '1GbAVdSrE-9ufhajD_KTEEY3mW0Adftem', 'name': 'action_manager09.qtdata_Linh_07-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:40 lib/cron_tempo.py ERROR] {'id': '1RBb5SGmS5wM5vfB5gNAsE70sL6qg-pQB', 'name': 'action_manager09.qtdata_Linh_06-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:41 lib/cron_tempo.py ERROR] {'id': '1N_FTSIvAIcHE7eykbh13YRqo4aQIWI3g', 'name': 'action_manager09.qtdata_Linh_05-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:42 lib/cron_tempo.py ERROR] {'id': '1B6QLGRu1AVFRKJy_pnoApxklhcoFigyW', 'name': 'action_manager09.qtdata_Linh_04-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:43 lib/cron_tempo.py ERROR] {'id': '1p8QNiQJXpjK1_62k-YGEpAz_kSCThT0D', 'name': 'action_manager09.qtdata_Linh_03-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:45 lib/cron_tempo.py ERROR] {'id': '14DvJw1DqJ9No__GFu-F5h_MNaonFvPXX', 'name': 'todo_manager09.qtdata_Linh_28-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:46 lib/cron_tempo.py ERROR] {'id': '1Vn4_CFfMjCHikUvMF7MiGFRcsLkQiGFx', 'name': 'todo_manager09.qtdata_Linh_27-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:47 lib/cron_tempo.py ERROR] {'id': '1QpZiaIwX2otuLXM-NGREK-dmf5XnGBXb', 'name': 'todo_manager09.qtdata_Linh_18-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:48 lib/cron_tempo.py ERROR] {'id': '1CKDVv8PCiwlp8cuKevjd94J9t-ciVYFb', 'name': 'todo_manager09.qtdata_Linh_26-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:49 lib/cron_tempo.py ERROR] {'id': '1EIkoAVh6wlLMZcrEw5oTlByOhz3rCM1V', 'name': 'todo_manager09.qtdata_Linh_25-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:50 lib/cron_tempo.py ERROR] {'id': '19AqvI6zdmd_DQ7k4XcCUCKCTE7WU4-5J', 'name': 'todo_manager09.qtdata_Linh_24-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:51 lib/cron_tempo.py ERROR] {'id': '1fgkpphxAhgUAID62JMJ3lwgPBrOLhFUd', 'name': 'todo_manager09.qtdata_Linh_21-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:52 lib/cron_tempo.py ERROR] {'id': '13txiN39MFXsBxmFPbmD_HqZSJ1deZo-x', 'name': 'todo_manager09.qtdata_Linh_20-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:53 lib/cron_tempo.py ERROR] {'id': '1kV8CmnykscEVkEn4ZwwhEEYBXQRYftwG', 'name': 'todo_manager09.qtdata_Linh_19-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:54 lib/cron_tempo.py ERROR] {'id': '1Ipf6d0Lq1wwZ66upowqR4cPof2KXFcFP', 'name': 'todo_manager09.qtdata_Linh_17-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:55 lib/cron_tempo.py ERROR] {'id': '1nOCjSCeqHAdTAKV6Z6z_jxuI6MDh6ofW', 'name': 'todo_manager09.qtdata_Linh_16-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:56 lib/cron_tempo.py ERROR] {'id': '15yl29rhGA4PouYz-U0YN_fqgwmjxw2CD', 'name': 'todo_manager09.qtdata_Linh_14-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:57 lib/cron_tempo.py ERROR] {'id': '1letnfAbSg9caCu5CAlekR1Fqf0PhUYqw', 'name': 'todo_manager09.qtdata_Linh_13-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:58 lib/cron_tempo.py ERROR] {'id': '1Hh_reyVNXJ2VP82RvPy2o50ZjxWE_P5o', 'name': 'todo_manager09.qtdata_Linh_12-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:02:59 lib/cron_tempo.py ERROR] {'id': '1tZKecEzB1C9Fu3CMputly4AKEv3hrPt0', 'name': 'todo_manager09.qtdata_Linh_11-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:00 lib/cron_tempo.py ERROR] {'id': '1Q9lI_h3AgxTOdTLrMSMTuHT7d8n9dqGU', 'name': 'todo_manager09.qtdata_Linh_10-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:01 lib/cron_tempo.py ERROR] {'id': '1wPGjX3AFKYubt8xsI3-0PqQ98Z7srRRW', 'name': 'todo_manager09.qtdata_Linh_09-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:02 lib/cron_tempo.py ERROR] {'id': '1hdnvomCuGsfHjhyQpMhrv1pVo2T38m18', 'name': 'todo_manager09.qtdata_Linh_07-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:03 lib/cron_tempo.py ERROR] {'id': '1iZ-cxAEsYI2Eps6ZwZ0-k-s--vKTLz_E', 'name': 'todo_manager09.qtdata_Linh_06-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:04 lib/cron_tempo.py ERROR] {'id': '1wFpE_fY1Ap-RDtLOFYoSLcPfOrp70YoL', 'name': 'todo_manager09.qtdata_Linh_05-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:05 lib/cron_tempo.py ERROR] {'id': '1oDij_GHqRI78SjtEDGw_YT6Q4HzjCfIq', 'name': 'todo_manager09.qtdata_Linh_04-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:03:06 lib/cron_tempo.py ERROR] {'id': '1ER4IywkEnFZgRKKe7mTp1O5j-mIGzFEf', 'name': 'todo_manager09.qtdata_Linh_03-MAY-22.json'} __ [0m
+[91m[2022-06-01T08:07:13 lib/cron_tempo.py ERROR] ./output/BDev.qtdata_GiangLe/note_BDev.qtdata_GiangLe.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/bot_MAL/note_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:14 lib/cron_tempo.py ERROR] ./output/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/BDev.qtdata_GiangLe/action_BDev.qtdata_GiangLe.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/bot_MAL/action_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/BDev.qtdata_GiangLe/todo_BDev.qtdata_GiangLe.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/bot_MAL/todo_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-06-01T08:07:15 lib/cron_tempo.py ERROR] ./output/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+Email has been sent successfuly.
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-JUL-22 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-07-01T08:02:21 lib/cron_tempo.py ERROR] {'id': '1xgnYAgMhxZRNXPQ92KyHFL7TUhwqDmxk', 'name': 'note_manager09.qtdata_Linh_23-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:22 lib/cron_tempo.py ERROR] {'id': '1QribqD1Whj0TQO6IrNQXW0r2jCefQbmF', 'name': 'note_manager09.qtdata_Linh_22-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:23 lib/cron_tempo.py ERROR] {'id': '1NgZVr_xPGzmNWkxgwtvTWr0nxuN_0vEt', 'name': 'note_manager09.qtdata_Linh_11-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:24 lib/cron_tempo.py ERROR] {'id': '1LVixXhuX6KEzbAmYyupY6GlFy_uKhyCC', 'name': 'note_manager09.qtdata_Linh_20-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:25 lib/cron_tempo.py ERROR] {'id': '1hwVnR6XcH67wrI6aGPq-S4UR4psK-6vP', 'name': 'note_manager09.qtdata_Linh_21-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:26 lib/cron_tempo.py ERROR] {'id': '1Y6jlm2CTDe2UjgxRG5SSFHpHZ8UAe03C', 'name': 'note_manager09.qtdata_Linh_18-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:27 lib/cron_tempo.py ERROR] {'id': '1RhELg_JHM5PBYQ-ggX6zCICeJ3dCg7af', 'name': 'note_manager09.qtdata_Linh_15-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:28 lib/cron_tempo.py ERROR] {'id': '1FxKCtahaGm79bUap9wez1HTmSNlF_m3w', 'name': 'note_manager09.qtdata_Linh_17-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:29 lib/cron_tempo.py ERROR] {'id': '1VEXDtU9JKlr87mQ4736d5c3KrWHKeAhr', 'name': 'note_manager09.qtdata_Linh_16-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:30 lib/cron_tempo.py ERROR] {'id': '1J80GibTPjznawjZpccxa60tFeTEhC9oi', 'name': 'note_manager09.qtdata_Linh_14-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:31 lib/cron_tempo.py ERROR] {'id': '1yqEFdSeneV8TYP8UZya7r1ObyEuE4DwV', 'name': 'note_manager09.qtdata_Linh_13-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:32 lib/cron_tempo.py ERROR] {'id': '1vSdzS-oAE1PqPUyneT0MVGqg8AZ9eJp-', 'name': 'note_manager09.qtdata_Linh_10-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:33 lib/cron_tempo.py ERROR] {'id': '1QxxEjluLg06S16cr8_J5F8rpsvMyrGjU', 'name': 'note_manager09.qtdata_Linh_09-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:34 lib/cron_tempo.py ERROR] {'id': '1CLQprVP_ZpmENBWqTkTnMEDp1fTXhFvx', 'name': 'note_manager09.qtdata_Linh_08-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:35 lib/cron_tempo.py ERROR] {'id': '1asBot7P6Ck6v4Hd6j1pxdIe8H743dEyP', 'name': 'note_manager09.qtdata_Linh_07-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:36 lib/cron_tempo.py ERROR] {'id': '1whzaIK-n7NdM2Bn5l0DKIISltVDkD7BN', 'name': 'note_manager09.qtdata_Linh_06-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:44 lib/cron_tempo.py ERROR] {'id': '1X9wXulCeUgYEGGFR4VbY0PlMCLUwMlxA', 'name': 'action_manager09.qtdata_Linh_23-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:45 lib/cron_tempo.py ERROR] {'id': '1irqH56w8sRque2ZxG9zzQY4iMbs5INCv', 'name': 'action_manager09.qtdata_Linh_22-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:46 lib/cron_tempo.py ERROR] {'id': '1FzQyTQiKpbUUJkZ-3d6eHwe_UtOrlAUc', 'name': 'action_manager09.qtdata_Linh_11-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:47 lib/cron_tempo.py ERROR] {'id': '1cbo8R5u8Zu6GVRZWskOPMp33_VDtydIg', 'name': 'action_manager09.qtdata_Linh_20-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:48 lib/cron_tempo.py ERROR] {'id': '1ZqoesdT9KAAII8AbLg2ueHh_YujBp63r', 'name': 'action_manager09.qtdata_Linh_21-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:49 lib/cron_tempo.py ERROR] {'id': '1vdUo5AAnnqF47hVYI9wogLmUqXOMLzEr', 'name': 'action_manager09.qtdata_Linh_18-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:50 lib/cron_tempo.py ERROR] {'id': '1JdnNp9-VZLGhhMr8Dw7SfYtN15Uv-7U5', 'name': 'action_manager09.qtdata_Linh_15-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:51 lib/cron_tempo.py ERROR] {'id': '1QhekOmEVsaAEdrNtz9JUvPSW-74Jff37', 'name': 'action_manager09.qtdata_Linh_17-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:52 lib/cron_tempo.py ERROR] {'id': '1z0hUwrrqm6tECxjy2ErVOajbfOOcMlWR', 'name': 'action_manager09.qtdata_Linh_16-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:53 lib/cron_tempo.py ERROR] {'id': '1nOzow4xGSz-KJAuu0zgRAOJ5nQv9HUR5', 'name': 'action_manager09.qtdata_Linh_14-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:54 lib/cron_tempo.py ERROR] {'id': '1zjWL3A43VYcrQfgB9LVafnNwJ5S5s2eF', 'name': 'action_manager09.qtdata_Linh_13-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:55 lib/cron_tempo.py ERROR] {'id': '1MA-eTYRJ69uvTodpkkPSYlqk9bITLRAg', 'name': 'action_manager09.qtdata_Linh_10-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:58 lib/cron_tempo.py ERROR] {'id': '1DCTO5hw7u0_oadWIhE9bPea3wBXLCVwn', 'name': 'action_manager09.qtdata_Linh_09-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:02:59 lib/cron_tempo.py ERROR] {'id': '1igk8bJXkhwvOgFBZDemkaW-Idp9_2FIu', 'name': 'action_manager09.qtdata_Linh_08-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:00 lib/cron_tempo.py ERROR] {'id': '1Dpiu1QpmYI_NTlFk2wCMa1Kmy_kR9alO', 'name': 'action_manager09.qtdata_Linh_07-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:02 lib/cron_tempo.py ERROR] {'id': '1rdcRWF0gfySZFUXFVULIJU_ZcgW9sZdi', 'name': 'action_manager09.qtdata_Linh_06-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:07 lib/cron_tempo.py ERROR] {'id': '1sVUw7YVzZWMu0AoMuTRXl2oLtTf_Xk-f', 'name': 'todo_manager09.qtdata_Linh_24-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:08 lib/cron_tempo.py ERROR] {'id': '12PELFkCkzNZO6k-5VLXe6ML-Qxxye8XD', 'name': 'todo_manager09.qtdata_Linh_23-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:09 lib/cron_tempo.py ERROR] {'id': '1KAE2LeQ13SikuGI__Q_ggZWRi2D3CHYB', 'name': 'todo_manager09.qtdata_Linh_22-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:10 lib/cron_tempo.py ERROR] {'id': '1oHr0vnfWs3JRoiOokpjwJEqdX2laFo0K', 'name': 'todo_manager09.qtdata_Linh_11-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:11 lib/cron_tempo.py ERROR] {'id': '1iByJpSi7bCcYGCdUMbGOpFX8dUXSZ6aF', 'name': 'todo_manager09.qtdata_Linh_20-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:11 lib/cron_tempo.py ERROR] {'id': '1CqUnAVlMmTkj545z2VeS2ShCsZUxDW5s', 'name': 'todo_manager09.qtdata_Linh_21-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:12 lib/cron_tempo.py ERROR] {'id': '19O9B9Fp1R9LYVLEGK_rzDSP3xYwanjS0', 'name': 'todo_manager09.qtdata_Linh_18-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:13 lib/cron_tempo.py ERROR] {'id': '1OpfL9A00FpCPdSgKuWd4ZCL-kVCiXbgi', 'name': 'todo_manager09.qtdata_Linh_15-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:15 lib/cron_tempo.py ERROR] {'id': '12_EuvM1ETpTFXdhCWLkux4VVCcJhVBDn', 'name': 'todo_manager09.qtdata_Linh_17-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:16 lib/cron_tempo.py ERROR] {'id': '1Vph25a4lwnJEJYvnc76z2qo1O7KZgAwV', 'name': 'todo_manager09.qtdata_Linh_16-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:17 lib/cron_tempo.py ERROR] {'id': '17hxTGdWEluLW7J63Yx5W1iMzc6_MARiN', 'name': 'todo_manager09.qtdata_Linh_14-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:18 lib/cron_tempo.py ERROR] {'id': '1ev-Yo98DL1yYrmA7Emp7AIgpX348vkJ5', 'name': 'todo_manager09.qtdata_Linh_13-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:19 lib/cron_tempo.py ERROR] {'id': '1QYdm7zk4Q1EH0QSGEe1RelGfZzRH7p4Z', 'name': 'todo_manager09.qtdata_Linh_10-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:20 lib/cron_tempo.py ERROR] {'id': '1YO7RU7ONzUwC8xMRzrhqwUQcZYvT00E9', 'name': 'todo_manager09.qtdata_Linh_09-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:21 lib/cron_tempo.py ERROR] {'id': '1KjEgkdFmRk7BwP7liNeXl4hnZ9oQXpni', 'name': 'todo_manager09.qtdata_Linh_08-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:22 lib/cron_tempo.py ERROR] {'id': '155DnPuX4mkLoQFR1HHC7Ov4QBh4BJ4v5', 'name': 'todo_manager09.qtdata_Linh_07-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:03:23 lib/cron_tempo.py ERROR] {'id': '1k1KGbBKkYCd8R-XfP8BYznReYH9X_btW', 'name': 'todo_manager09.qtdata_Linh_06-JUN-22.json'} __ [0m
+[91m[2022-07-01T08:07:24 lib/cron_tempo.py ERROR] ./output/manager03.qtdata_YenNguyen/note_manager03.qtdata_YenNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:24 lib/cron_tempo.py ERROR] ./output/BDev.qtdata_GiangLe/note_BDev.qtdata_GiangLe.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:24 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:24 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/note_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:24 lib/cron_tempo.py ERROR] ./output/bot_MAL/note_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:24 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/manager03.qtdata_YenNguyen/action_manager03.qtdata_YenNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/BDev.qtdata_GiangLe/action_BDev.qtdata_GiangLe.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/action_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/bot_MAL/action_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/manager03.qtdata_YenNguyen/todo_manager03.qtdata_YenNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/BDev.qtdata_GiangLe/todo_BDev.qtdata_GiangLe.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:25 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/todo_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:26 lib/cron_tempo.py ERROR] ./output/bot_MAL/todo_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:26 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:26 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:26 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:26 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-07-01T08:07:26 lib/cron_tempo.py ERROR] ./output/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+Email has been sent successfuly.
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-AUG-22 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-08-01T08:03:41 lib/cron_tempo.py ERROR] {'id': '17AncWYTeD-MUytuCW6B4D7OGadxSNhqT', 'name': 'note_manager09.qtdata_Linh_18-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:43 lib/cron_tempo.py ERROR] {'id': '1XqF4azdLs6zYXgN4916TeBEGx8YXKSmn', 'name': 'note_manager09.qtdata_Linh_14-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:44 lib/cron_tempo.py ERROR] {'id': '1eGjVeYlM38MPcoY8BLTCsk6TBXj4EX-k', 'name': 'note_manager09.qtdata_Linh_13-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:45 lib/cron_tempo.py ERROR] {'id': '18NfzsSUxk1eCQ5tPyj9foQct2L24HVe8', 'name': 'note_manager09.qtdata_Linh_11-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:46 lib/cron_tempo.py ERROR] {'id': '1U-HkAL_Ux27e67_k6HCzLvqh3x2h8j8r', 'name': 'note_manager09.qtdata_Linh_12-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:48 lib/cron_tempo.py ERROR] {'id': '1FoMjZ4fXIrSEW_0cZYjIPJ5U0c-7vT02', 'name': 'note_manager09.qtdata_Linh_09-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:49 lib/cron_tempo.py ERROR] {'id': '1DLfCf59jbE5xRyjzQVJQ0UjsWtybFucT', 'name': 'note_manager09.qtdata_Linh_08-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:51 lib/cron_tempo.py ERROR] {'id': '1bNYD5f05qKbcD0X8sFsXAT6ygvMLlwQT', 'name': 'note_manager09.qtdata_Linh_07-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:52 lib/cron_tempo.py ERROR] {'id': '1K037pXrfNHHs8RVbZQrGhE_1vKJwTrH2', 'name': 'note_manager09.qtdata_Linh_06-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:53 lib/cron_tempo.py ERROR] {'id': '18alA-yZ2e-s1VyPo3S6gZE6-8h2F41F7', 'name': 'note_manager09.qtdata_Linh_05-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:54 lib/cron_tempo.py ERROR] {'id': '1PvsMxEwdNSVLk6T81Sae4l0kA59i7mn2', 'name': 'note_manager09.qtdata_Linh_04-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:56 lib/cron_tempo.py ERROR] {'id': '1sktIVjI1LSv-7CfTgkKalA6LVfYZX0nK', 'name': 'note_manager09.qtdata_Linh_02-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:03:57 lib/cron_tempo.py ERROR] {'id': '1lnRiZo39MtCkEM6-V1dldKptK_PJ31R_', 'name': 'note_manager09.qtdata_Linh_01-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:11 lib/cron_tempo.py ERROR] {'id': '1YBtO8aoSR0Ot4gq7gjZC5iJ26ZkyBoe5', 'name': 'action_manager09.qtdata_Linh_18-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:12 lib/cron_tempo.py ERROR] {'id': '1QS5dMgoHmW4TyGh64GCI2sUmLPQbdv48', 'name': 'action_manager09.qtdata_Linh_14-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:13 lib/cron_tempo.py ERROR] {'id': '1lUh446pSqtJpZ1_c1kZ0_n4SRxObIcQV', 'name': 'action_manager09.qtdata_Linh_13-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:14 lib/cron_tempo.py ERROR] {'id': '1MsN1tr5xxZqv8cHiYovWpEgI-KPvqcGO', 'name': 'action_manager09.qtdata_Linh_11-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:16 lib/cron_tempo.py ERROR] {'id': '1WQIbDy02o1OOrCBpmmdWP9VKQQCi10Dk', 'name': 'action_manager09.qtdata_Linh_12-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:17 lib/cron_tempo.py ERROR] {'id': '1eXmzSzog_kgnfIR7oHYTZZMCIOzofKjg', 'name': 'action_manager09.qtdata_Linh_09-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:18 lib/cron_tempo.py ERROR] {'id': '1vppwbdz8D--kFn8f4ObXQksHoKrhY4EV', 'name': 'action_manager09.qtdata_Linh_08-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:19 lib/cron_tempo.py ERROR] {'id': '1OmrpIZleUPKY6f8982-7mep3yvPDGLQp', 'name': 'action_manager09.qtdata_Linh_07-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:20 lib/cron_tempo.py ERROR] {'id': '19U-YbZxF_vDkkGlec-8LV6md56sBvnuz', 'name': 'action_manager09.qtdata_Linh_06-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:21 lib/cron_tempo.py ERROR] {'id': '19AlecAgxEgVkUdYly6OrutWffJLaGvdw', 'name': 'action_manager09.qtdata_Linh_05-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:22 lib/cron_tempo.py ERROR] {'id': '1OPWWAI7gbJV3WDjwD7QWzZQHksutHzWC', 'name': 'action_manager09.qtdata_Linh_04-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:24 lib/cron_tempo.py ERROR] {'id': '1Yr5njbUYXGpZfZUjHBfd_YYMg09ULK2Y', 'name': 'action_manager09.qtdata_Linh_02-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:25 lib/cron_tempo.py ERROR] {'id': '1gcsKc1drexO1Lp4SZQ5ikLFebvEErRbn', 'name': 'action_manager09.qtdata_Linh_01-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:31 lib/cron_tempo.py ERROR] {'id': '1nxNzfmO8YK3z821z651i4DGq2cLDQfbC', 'name': 'todo_manager09.qtdata_Linh_26-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:32 lib/cron_tempo.py ERROR] {'id': '1DyZT8HvmAuXEJxXKtAmoD0Wt7XwFGgjU', 'name': 'todo_manager09.qtdata_Linh_25-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:33 lib/cron_tempo.py ERROR] {'id': '1NBzAePetCsDKNYSPo86RB65pixV32nCI', 'name': 'todo_manager09.qtdata_Linh_23-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:34 lib/cron_tempo.py ERROR] {'id': '1EiUmaN26MwlU5pBzXcuFfSaUrl_s8Wnr', 'name': 'todo_manager09.qtdata_Linh_22-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:35 lib/cron_tempo.py ERROR] {'id': '10EQFI9NGeQLv52Np8K2rZ0ZPQ8oQUxCU', 'name': 'todo_manager09.qtdata_Linh_21-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:36 lib/cron_tempo.py ERROR] {'id': '1yyTixCdZ2fVMRymA25hNBpSY0rCeI5WJ', 'name': 'todo_manager09.qtdata_Linh_19-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:38 lib/cron_tempo.py ERROR] {'id': '1O0doyGVouYNMoVqTVxQmwlWRYoIRALe8', 'name': 'todo_manager09.qtdata_Linh_18-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:39 lib/cron_tempo.py ERROR] {'id': '1-m_XU37jw8KYrUowqjdnTljhGMca2lPG', 'name': 'todo_manager09.qtdata_Linh_14-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:40 lib/cron_tempo.py ERROR] {'id': '1009FNqJ_-DnObIqzm-gMFcwECI5TJIhd', 'name': 'todo_manager09.qtdata_Linh_13-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:41 lib/cron_tempo.py ERROR] {'id': '1Jwpjbgp8u1HE9xOup_y_P2eciPscpFbI', 'name': 'todo_manager09.qtdata_Linh_11-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:42 lib/cron_tempo.py ERROR] {'id': '1VAhgVdOSsP4lEf8jdqrhQmOysa8e_JXr', 'name': 'todo_manager09.qtdata_Linh_12-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:43 lib/cron_tempo.py ERROR] {'id': '1JrtbjR8L8jhIx8jrAj3mH5XemnaB0jG1', 'name': 'todo_manager09.qtdata_Linh_09-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:44 lib/cron_tempo.py ERROR] {'id': '1nLlM2nPafwggGoXjEX51UtC7ONjbWu8K', 'name': 'todo_manager09.qtdata_Linh_08-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:45 lib/cron_tempo.py ERROR] {'id': '11-7VKBbGnGPRY_iAE8KZcGZtUkWb2xgx', 'name': 'todo_manager09.qtdata_Linh_07-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:47 lib/cron_tempo.py ERROR] {'id': '1bweIjKgKjUwYJso4AKh03Fo304R03rsV', 'name': 'todo_manager09.qtdata_Linh_06-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:48 lib/cron_tempo.py ERROR] {'id': '1f3jvbYHZrwGNO2wwrFj1iwHsswPgITLf', 'name': 'todo_manager09.qtdata_Linh_05-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:49 lib/cron_tempo.py ERROR] {'id': '1uiWwq6qDyI5l_8O1udpOuixEz2lY7iMV', 'name': 'todo_manager09.qtdata_Linh_04-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:50 lib/cron_tempo.py ERROR] {'id': '1i5nn-SUF25WdM9eihRwRyGm7Bz2RIhL9', 'name': 'todo_manager09.qtdata_Linh_02-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:04:51 lib/cron_tempo.py ERROR] {'id': '1jn7CtJtmZeOE0F6v6yWNSTPx2mJSwgtw', 'name': 'todo_manager09.qtdata_Linh_01-JUL-22.json'} __ [0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/note_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/manager06.qtdata_TuyetNgan/note_manager06.qtdata_TuyetNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/bot_MAL/note_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:47 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/action_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/manager06.qtdata_TuyetNgan/action_manager06.qtdata_TuyetNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/bot_MAL/action_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/todo_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/manager06.qtdata_TuyetNgan/todo_manager06.qtdata_TuyetNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/bot_MAL/todo_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-08-01T08:07:48 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+Email has been sent successfuly.
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-SEP-22 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-09-01T08:09:14 lib/cron_tempo.py ERROR] {'id': '1QSBrNN96NA3rEsygm4kNgz3gvOBvrg7D', 'name': 'note_manager09.qtdata_Linh_23-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:16 lib/cron_tempo.py ERROR] {'id': '1Wu4S2ElO7Eam6nIF92FwS9szqA-i1YC5', 'name': 'note_manager09.qtdata_Linh_22-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:17 lib/cron_tempo.py ERROR] {'id': '1tQF0baqUmtBqSjtZZi7Tug31uNtjaJSS', 'name': 'note_manager09.qtdata_Linh_20-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:18 lib/cron_tempo.py ERROR] {'id': '1B3TVZcsiA2roLwImM8XpSqBn9mCcPF-s', 'name': 'note_manager09.qtdata_Linh_19-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:20 lib/cron_tempo.py ERROR] {'id': '1__v9J-iH-5z6zpnMevCAsccrTbFovIpN', 'name': 'note_manager09.qtdata_Linh_18-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:21 lib/cron_tempo.py ERROR] {'id': '1C-80WpVKX9k3u-JaWsMNavOT5Kf7aii_', 'name': 'note_manager09.qtdata_Linh_17-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:22 lib/cron_tempo.py ERROR] {'id': '1snGwmkhhrpbMW2ZKi8fGXYY0qzCTuxi3', 'name': 'note_manager09.qtdata_Linh_16-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:23 lib/cron_tempo.py ERROR] {'id': '1lTOjdViZYESaszRrLIBCCp38Xjgdr5lL', 'name': 'note_manager09.qtdata_Linh_12-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:24 lib/cron_tempo.py ERROR] {'id': '1X2UxlA9TyM-4ZpRWLH4Q2r3-fzkfCtw6', 'name': 'note_manager09.qtdata_Linh_11-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:26 lib/cron_tempo.py ERROR] {'id': '1Qi3WkkFcg1J4MwLW9KInvgrugwSdYnm3', 'name': 'note_manager09.qtdata_Linh_09-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:27 lib/cron_tempo.py ERROR] {'id': '1ePul_Y-hM_m_Y2R8q0MqoRI11yvxcrX1', 'name': 'note_manager09.qtdata_Linh_08-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:28 lib/cron_tempo.py ERROR] {'id': '1yfTXJ4PoA2CDZvjDeVmJGpQYuNsOANhI', 'name': 'note_manager09.qtdata_Linh_06-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:29 lib/cron_tempo.py ERROR] {'id': '10Yicb_lQ2zqHsDVFXSsS2NcTDcQM1mKb', 'name': 'note_manager09.qtdata_Linh_05-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:31 lib/cron_tempo.py ERROR] {'id': '1KqwrPXh7I8UEiG_q_K1xkrSqoMY-yIZO', 'name': 'note_manager09.qtdata_Linh_04-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:32 lib/cron_tempo.py ERROR] {'id': '1C7AFIgi9c2FX9kXaUfOo2_dvCCgvzPkN', 'name': 'note_manager09.qtdata_Linh_03-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:34 lib/cron_tempo.py ERROR] {'id': '1rRQfVUfjl6H4mN9izPVhw9-Dsa18BtxP', 'name': 'note_manager09.qtdata_Linh_02-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:35 lib/cron_tempo.py ERROR] {'id': '1LoDlK6iXO7vRMhbXNF_aNSuqGJDDqOdA', 'name': 'note_manager09.qtdata_Linh_01-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:44 lib/cron_tempo.py ERROR] {'id': '1I1q7z0VBzanIR7lbHxdhfcN7M_SrdvwZ', 'name': 'action_manager09.qtdata_Linh_23-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:45 lib/cron_tempo.py ERROR] {'id': '1yy3kgFIoystDsL_JXWhj1pfrK2LwmfAZ', 'name': 'action_manager09.qtdata_Linh_22-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:46 lib/cron_tempo.py ERROR] {'id': '1JPfYO6w6Fp5zwP0JhrM5ObuHcmzJODka', 'name': 'action_manager09.qtdata_Linh_20-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:47 lib/cron_tempo.py ERROR] {'id': '1TiM1pnoejJMTPgtEIkImfcbaWChCRQu4', 'name': 'action_manager09.qtdata_Linh_19-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:48 lib/cron_tempo.py ERROR] {'id': '1pfs_dGza3Q_SAYH88CwwDozFby-F4Ma1', 'name': 'action_manager09.qtdata_Linh_18-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:50 lib/cron_tempo.py ERROR] {'id': '1F01jI-P3OF1IOy16Wbxxb1G-8bU6eJH_', 'name': 'action_manager09.qtdata_Linh_17-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:51 lib/cron_tempo.py ERROR] {'id': '1i4U86PLOaJuFeG3LiwAqbjO4qrjsLmeM', 'name': 'action_manager09.qtdata_Linh_16-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:52 lib/cron_tempo.py ERROR] {'id': '1u8uf2VssfhmmomSA8R5OZa1oqioW5jLP', 'name': 'action_manager09.qtdata_Linh_12-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:53 lib/cron_tempo.py ERROR] {'id': '1CDv7jCaiqK6dmB9dTlVjiQenOH_YUElU', 'name': 'action_manager09.qtdata_Linh_11-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:55 lib/cron_tempo.py ERROR] {'id': '13ZX-4wuEQ1mZIqAxVFeQzCoBwKVROo6G', 'name': 'action_manager09.qtdata_Linh_09-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:56 lib/cron_tempo.py ERROR] {'id': '1Z7RSojsDE_bfgDk0WXSH4_r1schE9bKA', 'name': 'action_manager09.qtdata_Linh_08-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:57 lib/cron_tempo.py ERROR] {'id': '1nahNyjxr9BJSBFlovTXtmBIq0Y4JhSLO', 'name': 'action_manager09.qtdata_Linh_06-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:09:58 lib/cron_tempo.py ERROR] {'id': '1KajygBef9Rofe8zBCypIhTs9m7a0tYBU', 'name': 'action_manager09.qtdata_Linh_05-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:00 lib/cron_tempo.py ERROR] {'id': '1X0lfpscXdIMrLlsZCe0DXM1sdfQVBt2e', 'name': 'action_manager09.qtdata_Linh_04-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:01 lib/cron_tempo.py ERROR] {'id': '1As7m7iL5Ek_kLWMjONTRSw5Thi13LqMp', 'name': 'action_manager09.qtdata_Linh_03-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:02 lib/cron_tempo.py ERROR] {'id': '1Hx_H3yBji90C4ZnngaSJKYVTr2GJgTsM', 'name': 'action_manager09.qtdata_Linh_02-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:04 lib/cron_tempo.py ERROR] {'id': '1QXn_k3ktRhELwiAkHPmpBi7kIhPjLHIt', 'name': 'action_manager09.qtdata_Linh_01-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:21 lib/cron_tempo.py ERROR] {'id': '1335s2-v034bj90XZLmaoYdQI4d9hDWsG', 'name': 'todo_manager09.qtdata_Linh_12-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:22 lib/cron_tempo.py ERROR] {'id': '1pylXYaRJ8hkFsxi98IueWz8_amkchbCH', 'name': 'todo_manager09.qtdata_Linh_11-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:23 lib/cron_tempo.py ERROR] {'id': '1288ZeVdHOd00mpUzzu8noJhKsvzWQ0hl', 'name': 'todo_manager09.qtdata_Linh_09-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:24 lib/cron_tempo.py ERROR] {'id': '1kUZl-kGJH5K0ut6pPkdLlopILSTfnCDh', 'name': 'todo_manager09.qtdata_Linh_08-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:25 lib/cron_tempo.py ERROR] {'id': '12vSkjIkSr0VWBnO8w-p4boSN4iU2ZSeo', 'name': 'todo_manager09.qtdata_Linh_06-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:27 lib/cron_tempo.py ERROR] {'id': '17XgKlKbJmY0fr3cedLgbrX6WKKKl2e_6', 'name': 'todo_manager09.qtdata_Linh_05-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:28 lib/cron_tempo.py ERROR] {'id': '1hDY3114XyCJdI78mo269R6fqwz6wSEuu', 'name': 'todo_manager09.qtdata_Linh_04-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:29 lib/cron_tempo.py ERROR] {'id': '1Y4WlwYHyt7cEtBuEddoPBSiPOVl7siRt', 'name': 'todo_manager09.qtdata_Linh_03-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:30 lib/cron_tempo.py ERROR] {'id': '1CeO0kzmYrJeC5usumzL2nxZyMsVrH8C7', 'name': 'todo_manager09.qtdata_Linh_02-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:10:31 lib/cron_tempo.py ERROR] {'id': '1LIqg4X6KEXzyBJuPY8N5Zd6LlIy6zqQa', 'name': 'todo_manager09.qtdata_Linh_01-AUG-22.json'} __ [0m
+[91m[2022-09-01T08:14:17 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/note_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:18 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/note_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:18 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/note_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:18 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:18 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/note_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/bot_MAL/note_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/note_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/note_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:19 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/action_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/action_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/action_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/action_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/bot_MAL/action_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/action_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/action_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/todo_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/todo_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/todo_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/todo_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/bot_MAL/todo_bot_MAL.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/todo_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/todo_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-09-01T08:14:20 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+Email has been sent successfuly.
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 06-OCT-22 13:30:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-10-06T13:32:46 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/note_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/note_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/note_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/note_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/note_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/note_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/note_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/note_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/note_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/note_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/note_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/note_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/note_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/action_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/action_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/action_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/action_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/action_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/action_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/action_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/action_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/action_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/action_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/action_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/action_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/action_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/todo_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/todo_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/todo_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/todo_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/todo_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/todo_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/todo_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/todo_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/todo_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/todo_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/todo_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/todo_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/todo_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/openpyxl/workbook/child.py:99: UserWarning: Title is more than 31 characters. Some applications may not be able to read the file
+  warnings.warn("Title is more than 31 characters. Some applications may not be able to read the file")
+
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:32:47 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno 110] Connection timed out
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 06-OCT-22 13:48:06 ========
+START bot SAM TempoNote report monthly
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/note_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/note_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/note_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/note_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/note_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/note_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/note_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/note_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/note_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/note_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:32 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/note_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/note_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/note_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/action_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/action_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/action_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/action_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/action_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/action_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/action_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/action_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/action_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/action_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/action_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/action_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/action_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/todo_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/todo_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/todo_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/todo_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/todo_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/todo_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/todo_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/todo_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/todo_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/todo_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/todo_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/todo_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/todo_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/openpyxl/workbook/child.py:99: UserWarning: Title is more than 31 characters. Some applications may not be able to read the file
+  warnings.warn("Title is more than 31 characters. Some applications may not be able to read the file")
+
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T13:50:33 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno 110] Connection timed out
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 06-OCT-22 13:57:06 ========
+START bot SAM TempoNote report monthly
+[91m[2022-10-06T14:06:37 lib/cron_tempo.py ERROR] {'id': '1HQTwRH0vCpuAkYLlRi1R1WPMA-BCYWQG', 'name': 'note_manager09.qtdata_Linh_10-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:38 lib/cron_tempo.py ERROR] {'id': '1BbYlU8HiqxAEynGZjcHbc5-Njmi4u78i', 'name': 'note_manager09.qtdata_Linh_16-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:39 lib/cron_tempo.py ERROR] {'id': '1uhTQzxgIiQcwkgjXQl9pIU0P-uzCt_HQ', 'name': 'note_manager09.qtdata_Linh_28-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:40 lib/cron_tempo.py ERROR] {'id': '1OdPu2q5L-BtHuIhWZCGAdI7kGqgXXc9T', 'name': 'note_manager09.qtdata_Linh_29-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:41 lib/cron_tempo.py ERROR] {'id': '19XV3Cn7tYVjjnQd5GagRxnjFeSjq7Pcc', 'name': 'note_manager09.qtdata_Linh_26-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:42 lib/cron_tempo.py ERROR] {'id': '1p-mRym058dnyYgzBkMn3opZvT4Skt0Tx', 'name': 'note_manager09.qtdata_Linh_24-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:44 lib/cron_tempo.py ERROR] {'id': '1I1vt4zKlptEPqLzUYwLq10OA3Ce-SoMB', 'name': 'note_manager09.qtdata_Linh_21-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:45 lib/cron_tempo.py ERROR] {'id': '18IcUc06FERICCNwYqRcK-lQc_UovFmhy', 'name': 'note_manager09.qtdata_Linh_22-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:46 lib/cron_tempo.py ERROR] {'id': '1m2nqBS1_dpCO4IvWmePuqOCyaVEfDRqH', 'name': 'note_manager09.qtdata_Linh_23-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:47 lib/cron_tempo.py ERROR] {'id': '1lipcq58F_nzy4UWHUlPr_EOwHRe7GeA1', 'name': 'note_manager09.qtdata_Linh_20-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:49 lib/cron_tempo.py ERROR] {'id': '16qt-f_kHLLNjZP55E0HOJtrZGk4RNok1', 'name': 'note_manager09.qtdata_Linh_19-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:50 lib/cron_tempo.py ERROR] {'id': '1DyiQHyM8nrMPcDjaj6HCDCw-DkWrkTny', 'name': 'note_manager09.qtdata_Linh_17-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:51 lib/cron_tempo.py ERROR] {'id': '16w59Ae7v1ePUrhs9TB0fMaxnOVYeXEAj', 'name': 'note_manager09.qtdata_Linh_15-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:53 lib/cron_tempo.py ERROR] {'id': '1bugAeZ2h9uCPCjaWnpLP2IdR_tG-_fu7', 'name': 'note_manager09.qtdata_Linh_14-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:54 lib/cron_tempo.py ERROR] {'id': '1C6T4e6ZIlPi2tBGhjbRmbh1lNKMxBog7', 'name': 'note_manager09.qtdata_Linh_13-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:55 lib/cron_tempo.py ERROR] {'id': '11WrjV_m8sT15PwIppF8qaN00BKkTvw_a', 'name': 'note_manager09.qtdata_Linh_12-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:56 lib/cron_tempo.py ERROR] {'id': '1VsGpdaMQJ2tbA0WwygfN4saJooX-z-56', 'name': 'note_manager09.qtdata_Linh_09-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:57 lib/cron_tempo.py ERROR] {'id': '1FeynR2yIokVSprjYaAQV-5hLLIQr-_s-', 'name': 'note_manager09.qtdata_Linh_08-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:58 lib/cron_tempo.py ERROR] {'id': '1Ptx4erIHR-tcTieHiihubG5HfYTtBHxB', 'name': 'note_manager09.qtdata_Linh_07-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:06:59 lib/cron_tempo.py ERROR] {'id': '1mrp6828A8824F1rTtZJQiKAGNFgPBGwd', 'name': 'note_manager09.qtdata_Linh_06-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:00 lib/cron_tempo.py ERROR] {'id': '1bFQoZQo3uVoATSjapvkJMNP3NBhTrXn5', 'name': 'note_manager09.qtdata_Linh_05-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:02 lib/cron_tempo.py ERROR] {'id': '1aZfryURGAG96GIrLTprsrrGP9ssfmy_G', 'name': 'action_manager09.qtdata_Linh_10-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:03 lib/cron_tempo.py ERROR] {'id': '1enSoiEsqPFb8zgo6cRpRppc8uEyWATYg', 'name': 'action_manager09.qtdata_Linh_16-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:05 lib/cron_tempo.py ERROR] {'id': '1UIohdZEt-urrVMzWvOdn7fyA9hpf843E', 'name': 'action_manager09.qtdata_Linh_28-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:06 lib/cron_tempo.py ERROR] {'id': '1oF4ym1Lm3KmZ5xzZ3PH3mWpEYcBblX17', 'name': 'action_manager09.qtdata_Linh_29-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:07 lib/cron_tempo.py ERROR] {'id': '1fIQVsJ_4K7KRqidgzBCBJiW62yv1xy-1', 'name': 'action_manager09.qtdata_Linh_26-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:08 lib/cron_tempo.py ERROR] {'id': '1GoA7-lCR_oeF210B5xhz41h6fb_YNzsR', 'name': 'action_manager09.qtdata_Linh_24-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:09 lib/cron_tempo.py ERROR] {'id': '1aM8t8k1l_ut0Vpkx86Uoq1e19sUl6Tpr', 'name': 'action_manager09.qtdata_Linh_21-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:10 lib/cron_tempo.py ERROR] {'id': '1rfHfGTad9KvdH0hX5zXKLfP3K9_9Fy9J', 'name': 'action_manager09.qtdata_Linh_22-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:11 lib/cron_tempo.py ERROR] {'id': '10XoiHHwPz6AklLZgNRNYTGyj7ntUiOCv', 'name': 'action_manager09.qtdata_Linh_23-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:12 lib/cron_tempo.py ERROR] {'id': '1VE3j6Mu_QPTM4WUxEgjKKs8ZN2gQAmfy', 'name': 'action_manager09.qtdata_Linh_20-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:13 lib/cron_tempo.py ERROR] {'id': '1Ktw8CiUtdWCAjap9VT183SJ9PAcnmJIn', 'name': 'action_manager09.qtdata_Linh_19-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:14 lib/cron_tempo.py ERROR] {'id': '1iCe1feUoAxIhoGJPVJ7t3CyE0qKN3hSj', 'name': 'action_manager09.qtdata_Linh_17-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:16 lib/cron_tempo.py ERROR] {'id': '1tLpBeZnYPLmEB7_pNey5mjejNzKsXlXX', 'name': 'action_manager09.qtdata_Linh_15-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:17 lib/cron_tempo.py ERROR] {'id': '1g-BgiIh1TZPx6u78MG3FQwFI2T9npO_9', 'name': 'action_manager09.qtdata_Linh_14-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:18 lib/cron_tempo.py ERROR] {'id': '1s8lHTuE4yjy4TrbJKhEp7qYYDuJk4HPN', 'name': 'action_manager09.qtdata_Linh_13-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:19 lib/cron_tempo.py ERROR] {'id': '1xtUPezLxKAsko1wvYWguFJneZiDNYYjn', 'name': 'action_manager09.qtdata_Linh_12-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:20 lib/cron_tempo.py ERROR] {'id': '1DrY7Yl_qUUErw0RL36bayGsP0zAKM-j3', 'name': 'action_manager09.qtdata_Linh_09-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:21 lib/cron_tempo.py ERROR] {'id': '1-8Wq7Tp4WK2D8AIjoR9y2UNinFWTFrcb', 'name': 'action_manager09.qtdata_Linh_08-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:22 lib/cron_tempo.py ERROR] {'id': '1lbKPdPqZqrG2tisDNEOpy2EwlOq_sB_q', 'name': 'action_manager09.qtdata_Linh_07-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:24 lib/cron_tempo.py ERROR] {'id': '19OII7jKnf3vD1YYXYi0kVs1L-4pRwDfX', 'name': 'action_manager09.qtdata_Linh_06-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:25 lib/cron_tempo.py ERROR] {'id': '1Z8UvFGL2iL4UDNAkMIGx4hXwZ8XF-P0o', 'name': 'action_manager09.qtdata_Linh_05-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:44 lib/cron_tempo.py ERROR] {'id': '1-ByqQNVkVo1QxFhYh8zKCooMS79FatxB', 'name': 'todo_manager09.qtdata_Linh_07-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:45 lib/cron_tempo.py ERROR] {'id': '1zglu0mzrOtSN08GL0YK9qDNQissUhtRf', 'name': 'todo_manager09.qtdata_Linh_06-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:07:46 lib/cron_tempo.py ERROR] {'id': '1HMefiWlLwjZjonINYCpQW7nxRjIAHCD5', 'name': 'todo_manager09.qtdata_Linh_05-SEP-22.json'} __ [0m
+[91m[2022-10-06T14:10:39 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/note_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:39 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/note_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:39 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/note_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:39 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/note_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:39 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/note_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/note_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/openpyxl/workbook/child.py:99: UserWarning: Title is more than 31 characters. Some applications may not be able to read the file
+  warnings.warn("Title is more than 31 characters. Some applications may not be able to read the file")
+/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/openpyxl/workbook/child.py:99: UserWarning: Title is more than 31 characters. Some applications may not be able to read the file
+  warnings.warn("Title is more than 31 characters. Some applications may not be able to read the file")
+
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/note_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/note_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/note_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:40 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/action_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/action_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/action_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/action_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/action_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/action_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/action_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/action_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/action_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/todo_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/todo_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/todo_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/todo_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/todo_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/todo_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:41 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/todo_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:42 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/todo_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:42 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:42 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/todo_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:42 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:42 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-10-06T14:10:42 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno 110] Connection timed out
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-NOV-22 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2022-11-01T08:12:59 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/note_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:12:59 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/note_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:12:59 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/note_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:12:59 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/note_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/note_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/note_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/note_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/note_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/note_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/note_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/note_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/note_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:00 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/note_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/action_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/action_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/action_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/action_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/action_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/action_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/action_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/action_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/action_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/action_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:01 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/action_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/action_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/action_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager10.qtdata_KieuNgan/todo_manager10.qtdata_KieuNgan.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager16.qtdata_PhuongHa/todo_manager16.qtdata_PhuongHa.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/globalleader01.qtdata_NgaNguyen/todo_globalleader01.qtdata_NgaNguyen.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager02.qtdata_NgocTram/todo_manager02.qtdata_NgocTram.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager18.qtdata_TranThuy/todo_manager18.qtdata_TranThuy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/HoangVanAnh_Manager/todo_HoangVanAnh_Manager.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager13.qtdata_TienDat/todo_manager13.qtdata_TienDat.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager08.qtdata_HoaiLy/todo_manager08.qtdata_HoaiLy.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager15.qtdata_HongNgoc/todo_manager15.qtdata_HongNgoc.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager05.qtdata_huyenanh/todo_manager05.qtdata_huyenanh.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager04.qtdata_HoangPhong/todo_manager04.qtdata_HoangPhong.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager07.qtdata_ThanhTra/todo_manager07.qtdata_ThanhTra.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/manager19.qtdata_NguyenHuong/todo_manager19.qtdata_NguyenHuong.xlsx: ZIP file contents not a known type of workbook[0m/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/openpyxl/workbook/child.py:99: UserWarning: Title is more than 31 characters. Some applications may not be able to read the file
+  warnings.warn("Title is more than 31 characters. Some applications may not be able to read the file")
+
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-11-01T08:13:02 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE
+/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/openpyxl/workbook/child.py:99: UserWarning: Title is more than 31 characters. Some applications may not be able to read the file
+  warnings.warn("Title is more than 31 characters. Some applications may not be able to read the file")
+Connecting to Server main..
+======== <module> __ 01-DEC-22 08:00:09 ========
+START bot SAM TempoNote report monthly
+[91m[2022-12-01T08:04:29 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:29 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:29 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:29 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2022-12-01T08:04:30 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-JAN-23 08:00:11 ========
+START bot SAM TempoNote report monthly
+[91m[2023-01-01T08:03:52 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/investor01.qtdata_TruongHaiDang/action_investor01.qtdata_TruongHaiDang.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-01-01T08:03:53 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-FEB-23 08:00:11 ========
+START bot SAM TempoNote report monthly
+[91m[2023-02-01T08:03:07 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/investor01.qtdata_TruongHaiDang/action_investor01.qtdata_TruongHaiDang.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-02-01T08:03:08 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-MAR-23 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/Cris/note_Cris.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/Cris/action_Cris.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/investor01.qtdata_TruongHaiDang/action_investor01.qtdata_TruongHaiDang.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:18 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/Cris/todo_Cris.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-03-01T08:03:19 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-APR-23 08:00:08 ========
+START bot SAM TempoNote report monthly
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-04-01T08:03:31 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE
+Connecting to Server main..
+======== <module> __ 01-MAY-23 08:00:07 ========
+START bot SAM TempoNote report monthly
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/Cris/note_Cris.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/qtlab_dung_dang/note_qtlab_dung_dang.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/AnKhuong_internQT/note_AnKhuong_internQT.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/note_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/backup/botsam/note_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/note_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/Cris/action_Cris.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/qtlab_dung_dang/action_qtlab_dung_dang.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:03 lib/cron_tempo.py ERROR] ./output/AnKhuong_internQT/action_AnKhuong_internQT.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/action_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/backup/botsam/action_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/action_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/Cris/todo_Cris.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/qtlab_dung_dang/todo_qtlab_dung_dang.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/AnKhuong_internQT/todo_AnKhuong_internQT.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/backup/SamSatakunta_Satakunta/todo_SamSatakunta_Satakunta.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/backup/botsam/todo_botsam.xlsx: ZIP file contents not a known type of workbook[0m
+[91m[2023-05-01T08:03:04 lib/cron_tempo.py ERROR] ./output/backup/HenryUniverse/todo_HenryUniverse.xlsx: ZIP file contents not a known type of workbook[0m
+[Errno -2] Name or service not known
+bot SAM TempoNote report monthly: DONE

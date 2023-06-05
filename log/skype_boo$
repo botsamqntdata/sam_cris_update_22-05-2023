@@ -1,0 +1,130 @@
+Connecting to Server main..
+======== <module> __ 30-APR-22 15:23:06 ========
+Skype Bot Cronjob: START..
+[91m[2022-04-30T15:23:12 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:bdec9acc3d434829816773d27f5ac9cd@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 100, in <module>
+    |    bot_skype.send_group_message(ecommerce_groupid, '<at id="*">all</at> Meeting.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwus1-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:bdec9acc3d434829816773d27f5ac9cd@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-APR-22 15:30:07 ========
+Skype Bot Cronjob: START..
+[91m[2022-04-30T15:30:14 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:bdec9acc3d434829816773d27f5ac9cd@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 100, in <module>
+    |    bot_skype.send_group_message(ecommerce_groupid, '<at id="*">all</at> Meeting.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwus1-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:bdec9acc3d434829816773d27f5ac9cd@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-APR-22 15:35:06 ========
+Skype Bot Cronjob: START..
+[91m[2022-04-30T15:35:11 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:bdec9acc3d434829816773d27f5ac9cd@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 100, in <module>
+    |    bot_skype.send_group_message(ob_groupid, '<at id="*">all</at> Meeting.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwus1-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:bdec9acc3d434829816773d27f5ac9cd@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-APR-22 15:45:06 ========
+Skype Bot Cronjob: START..
+[91m[2022-04-30T15:45:10 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:e358f9eb9fb1459f8a3ab008782bfe37@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 102, in <module>
+    |    bot_skype.send_group_message(re_groupid, '<at id="*">all</at> Meeting.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwus1-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:e358f9eb9fb1459f8a3ab008782bfe37@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 02-AUG-22 09:45:07 ========
+Skype Bot Cronjob: START..
+[91m[2022-08-02T09:45:14 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:3A5ba25ba32aad4a5dafe2011013f432c7@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 156, in <module>
+    |    bot_skype.send_group_message(intern_groupid, '<at id="*">all</at> Reset 15 mins.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwus2-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:3A5ba25ba32aad4a5dafe2011013f432c7@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE

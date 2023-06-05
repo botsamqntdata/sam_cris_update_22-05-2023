@@ -49,7 +49,7 @@ def send_facebook(browser, url, subject, message, file, min_delay):
     actions = ActionChains(browser)
     for part in message.split('\n'):
         actions.send_keys(part)
-        actions.key_down(Keys.SHIFT).key_down(Keys.ENTER).key_up(Keys.SHIFT).key_up(Keys.ENTER)
+        actions.key_down(Keys.SHIFT).send_keys(Keys.ENTER).key_up(Keys.SHIFT)
         time.sleep(2)
 
     actions.perform()

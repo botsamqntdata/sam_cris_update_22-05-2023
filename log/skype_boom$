@@ -1,0 +1,745 @@
+Connecting to Server main..
+======== <module> __ 28-APR-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-APR-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-APR-22 15:15:07 ========
+Skype Bot Cronjob: START..
+[91m[2022-04-30T15:15:12 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:bdec9acc3d434829816773d27f5ac9cd@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 100, in <module>
+    |    bot_skype.send_group_message(ecommerce_groupid, '<at id="*">all</at> Meeting.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwus1-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:bdec9acc3d434829816773d27f5ac9cd@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 02-MAY-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 03-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-MAY-22 08:30:06 ========
+Skype Bot Cronjob: START..
+[91m[2022-05-04T08:30:11 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 457, in __getitem__
+    |    return super(SkypeChats, self).__getitem__(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/core.py", line 138, in __getitem__
+    |    return self.cache[key]
+    |KeyError: '19:e358f9eb9fb1459f8a3ab008782bfe37@thread.skype'
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 96, in <module>
+    |    bot_skype.send_group_message(re_groupid, '<at id="*">all</at> GGB Meeting.')
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 24, in send_group_message
+    |    channel = self.sk.chats[group_id]
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 459, in __getitem__
+    |    return self.chat(key)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/chat.py", line 492, in chat
+    |    auth=SkypeConnection.Auth.RegToken, params={"view": "msnp24Equivalent"}).json()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('404 response from GET https://azwcus1-client-s.gateway.messenger.live.com/v1/users/ME/conversations/19:e358f9eb9fb1459f8a3ab008782bfe37@thread.skype', <Response [404]>)
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 05-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 05-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 06-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 06-MAY-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 09-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 09-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 10-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 10-MAY-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 11-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 11-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 12-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 12-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 13-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 13-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 16-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 16-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 17-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 17-MAY-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 18-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 20-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 23-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 23-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 24-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 24-MAY-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 25-MAY-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 25-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 26-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 26-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 27-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 27-MAY-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-MAY-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-MAY-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 31-MAY-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 31-MAY-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 02-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 02-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 03-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 03-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 06-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 06-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 07-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 07-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 08-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 08-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 09-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 09-JUN-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 10-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 10-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 13-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 13-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 14-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 14-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 15-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 15-JUN-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 16-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 16-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 17-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 17-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 20-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 20-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 21-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 21-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 22-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 22-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 23-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 23-JUN-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 24-JUN-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 24-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 27-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 27-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 28-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 28-JUN-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-JUN-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-JUN-22 16:30:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-JUN-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-JUN-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 05-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 05-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 06-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 06-JUL-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 07-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 07-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 08-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 08-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 11-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 11-JUL-22 16:30:10 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 12-JUL-22 11:00:09 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 12-JUL-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 13-JUL-22 11:00:08 ========
+Skype Bot Cronjob: START..
+[91m[2022-07-13T11:00:16 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/main.py", line 67, in __init__
+    |    self.conn.readToken()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 293, in readToken
+    |    raise SkypeAuthException("No token file specified")
+    |skpy.core.SkypeAuthException: No token file specified
+    |
+    |During handling of the above exception, another exception occurred:
+    |
+    |Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 89, in <module>
+    |    bot_skype = bot_skype()
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 20, in __init__
+    |    self.sk = login_skype(self.username, self.password)
+    |  File "/home/qtdata/sam/addon/bot_skype/func/skype_tempo.py", line 8, in login_skype
+    |    return Skype(username, password)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/main.py", line 69, in __init__
+    |    self.conn.getSkypeToken()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 188, in inner
+    |    return method(*args, **kwargs)
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 424, in soapLogin
+    |    self.getRegToken()
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 479, in getRegToken
+    |    token, expiry, msgsHost, endpoint = SkypeRegistrationTokenProvider(self).auth(self.tokens["skype"])
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 918, in auth
+    |    headers=headers, json={"endpointFeatures": "Agent"})
+    |  File "/home/qtdata/anaconda3/envs/sam/lib/python3.6/site-packages/skpy/conn.py", line 237, in __call__
+    |    raise SkypeApiException("{0} response from {1} {2}".format(resp.status_code, method, url), resp)
+    |skpy.core.SkypeApiException: ('500 response from POST https://azwus2-client-s.gateway.messenger.live.com/v1/users/ME/endpoints', <Response [500]>)
+    |[0m
+[91m[2022-07-13T11:00:16 addon/bot_skype/bot_skype.py ERROR] Traceback (most recent call last):
+    |  File "addon/bot_skype/bot_skype.py", line 101, in <module>
+    |    bot_skype.send_group_message(ggb_groupid, '<at id="*">all</at> GGB Meeting.')
+    |TypeError: send_group_message() missing 1 required positional argument: 'message'
+    |[0m
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 13-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 14-JUL-22 11:00:10 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 14-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 15-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 15-JUL-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 18-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 19-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 19-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 20-JUL-22 11:00:06 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 20-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 21-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 21-JUL-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 22-JUL-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 22-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 25-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 25-JUL-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 26-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 26-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 27-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 27-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 28-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 28-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-JUL-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-JUL-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-AUG-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 02-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 02-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 03-AUG-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 03-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-AUG-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 04-AUG-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 05-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 12-AUG-22 16:30:11 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12170: TNS:Connect timeout occurred
+======== <module> __ 15-AUG-22 11:01:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 15-AUG-22 16:30:09 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 16-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 16-AUG-22 16:30:09 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 17-AUG-22 11:00:09 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 17-AUG-22 16:30:09 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 18-AUG-22 11:00:10 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 18-AUG-22 16:30:18 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+ORA-12543: TNS:destination host unreachable
+======== <module> __ 19-AUG-22 11:00:10 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 22-AUG-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 22-AUG-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 23-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 23-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 24-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 24-AUG-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 25-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 25-AUG-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 26-AUG-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 26-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 29-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-AUG-22 11:00:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 30-AUG-22 16:30:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 31-AUG-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 31-AUG-22 16:30:07 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 01-SEP-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE
+Connecting to Server main..
+======== <module> __ 05-SEP-22 11:00:08 ========
+Skype Bot Cronjob: START..
+Skype Bot Cronjob: DONE

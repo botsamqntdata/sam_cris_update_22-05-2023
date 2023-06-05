@@ -1,4 +1,3 @@
-
 import PySimpleGUI as sg
 import os, sys
 import traceback
@@ -324,11 +323,10 @@ def change_doingtask(window):
             break
 
 
-def run_popup_note(timer_popup, timer_action, temp_id):
+def run_popup_note(timer_popup, timer_action, timer_exist, temp_id):
     #Init
     popup_start = time.time()
     action_start = time.time()
-    timer_exist=30.0
     timer_exist_default = timer_exist
     action_is_on = False
     popup_first_run = True
@@ -368,205 +366,14 @@ def run_popup_note(timer_popup, timer_action, temp_id):
             json_tempnote = json.load(file)
 
     num_oraclecheck = 0
-    while True:      
+    while True:
         try:
             #Create note
-            if popup_first_run==True:
-                window=create_window_note()
-                delta_old=0
-                delta_new=randint(-149,149)
-                now_temp = datetime.now()
-                current_time = now_temp.strftime('%H:%M:%S')
-                date = now_temp.strftime('%d-%b-%y').upper()
-                date_server = now_temp.strftime('%Y-%m-%d %H:%M:%S')
-
-                window.Element('-TIME-').Update('Time: {}'.format(current_time))
-
-                if time.time() > action_start + timer_action:
-                    action_is_on = True
-                    action_start = time.time()
-                    temp_start = time.time()
-
-                    #Update layout action
-                    window['-LAYOUT_NOTE-'].update(visible=False)
-                    window['-LAYOUT_ACTION-'].update(visible=True)
-                    window['-OUTCOMES-'].set_focus()
-                    window['-SUBMIT-'].update(visible=True)
-
-                    timer_exist = timer_exist_default * 3
-                else:
-                    timer_exist = timer_exist_default
-
-                tp_act = 'None'
-                tp_outcome = 'None'
-                tp_action = 'None'
-
-                while True:
-                    event, values = window.read(timeout = 100)
-                    if event == sg.TIMEOUT_KEY:
-                        tp_outcome = values['-OUTCOME-']
-                        tp_act = values['-NEXTACT-']
-                        topic = window['-TOPIC-'].get().replace('\n\nConclusion & Action', '')
-
-                        if action_is_on:
-                            tp_outcome = values['-OUTCOMES-']
-                            tp_act = values['-ACTIVITIES-']
-                            tp_action = values['-ACTION-']
-                        pass
-
-                    if event == 'Change':
-                        change_doingtask(window)
-                        pass
-
-                    if time.time() > popup_start + timer_exist:
-                        window.Hide()
-                        window.Close()
-                        break
-
-                    if action_is_on:
-                        if time.time() > temp_start + timer_exist_default:
-                            lib_tempo.append_note('Note Task 1h: outcomes, activities, conclusion & action.')
-                            temp_start = time.time()
-
-                        if tp_act is not None and tp_outcome is not None and tp_action is not None \
-                        and len(tp_act) > 0 and len(tp_outcome) > 0 and len(tp_action) > 0 \
-                        and event == '-SUBMIT-':
-                            if topic != 'Conclusion & Action':
-                                #Update action on Topic sheet
-                                if len(tp_action) >= 300:
-                                    lib_tempo.update_topic(topic, tp_action)
-
-                                else:
-                                    sg.popup('Action requires at least 300 characters with Proof. Current: {}.'.format(len(tp_action)),
-                                        location = (500, 300),
-                                        keep_on_top = True)
-                                    continue
-
-                            if prev_act != tp_act and prev_outcome != tp_outcome and prev_action != tp_action:
-                                prev_act = tp_act
-                                prev_outcome = tp_outcome
-                                prev_action = tp_action
-                                window.Hide()
-                                window.Close()
-                                break
-
-                            else:
-                                sg.popup('Note is duplicated. Please enter a new one.',
-                                    location = (500, 300),
-                                    keep_on_top = True)
-
-
-                    else:
-                        if tp_act is not None and tp_outcome is not None \
-                        and len(tp_outcome) > 0 and len(tp_act) > 0 \
-                        and event == '-SUBMIT-':
-                            if len(util.task_doing) == 0:
-                                sg.popup('Click "Change" to select new task.',
-                                    location = (500, 300),
-                                    keep_on_top = True)
-                                continue
-
-                            if prev_act != tp_act and prev_outcome != tp_outcome:
-                                prev_act = tp_act
-                                prev_outcome = tp_outcome
-                                window.Hide()
-                                window.Close()
-                                break
-
-                            else:
-                                sg.popup('Note is duplicated. Please enter a new one.',
-                                    location = (500, 300),
-                                    keep_on_top = True)
-
-                #Create json file and upload
-                if tp_act == '':
-                    tp_act = 'SAM issue.'
-                if tp_outcome == '':
-                    tp_outcome = 'SAM issue.'
-                if tp_action == '':
-                    tp_action = 'SAM issue.'
-
-                if action_is_on:
-                    dict_action = {
-                        'DATETIME': date,
-                        'TIME': current_time,
-                        'NAME': util.username,
-                        'TASK': util.task_doing,
-                        'ACTIVITIES': tp_act,
-                        'OUTCOMES': tp_outcome,
-                        'ACTION': tp_action,
-                        # 'THUMBSUP': util.username
-                    }
-
-                    #Write to note file
-                    json_action.append(dict_action)
-                    with open(action_path, 'w') as file:
-                        json.dump(json_action, file)
-
-                    action_is_on = False
-
-                dict_note = {
-                    'DATETIME': date,
-                    'TIME': current_time,
-                    'NAME': util.username,
-                    'TASK': util.task_doing,
-                    'OUTCOME': tp_outcome,
-                    'NEXTACT': tp_act
-                }
-
-                #Write to note file
-                json_note.append(dict_note)
-                with open(note_path, 'w') as file:
-                    json.dump(json_note, file)
-
-                if num_oraclecheck <= 3:
-                    try:
-                        #Upload latest note to Oracle database
-                        util.oracle_db.open_conn().query(
-                            "INSERT INTO {}(DATETIME, TIME, NAME, TASK, OUTCOME, NEXTACT) \
-                            VALUES(TO_DATE(:datetime, 'yyyy-mm-dd hh24:mi:ss'), :time, :name, :task, :outcome, :nextact)".format(
-                            util.temponote),
-                            {
-                                'datetime': date_server,
-                                'time': current_time,
-                                'name': util.username,
-                                'task': util.task_doing,
-                                'outcome': tp_outcome,
-                                'nextact': tp_act
-                            }
-                        )
-
-                    except:
-                        num_oraclecheck += 1
-                        #Store note in temp file if have issue
-                        json_tempnote.append(dict_note)
-                        with open(temp_note_path, 'w') as fp:
-                            json.dump(json_tempnote, fp)
-                        pass
-                else:
-                    latest_note_path = util.path_note + 'temp_note.json'
-                    with open(latest_note_path, 'w') as fp:
-                        json.dump([dict_note], fp)
-
-                    #Upload latest note to temp folder
-                    lib_tempo.push_file('temp_note.json', util.path_note + 'temp_note.json', temp_id)
-
-                    #Store note in temp file if have issue
-                    json_tempnote.append(dict_note)
-                    with open(temp_note_path, 'w') as fp:
-                        json.dump(json_tempnote, fp)
-                    pass
-
-                popup_first_run=False
-                compare_time=popup_start + timer_popup + delta_new
-  
-            elif time.time() > compare_time :
-                window=create_window_note()
-                delta_old=delta_new
-                delta_new= randint(-149,149)
-                compare_time=compare_time - delta_old+timer_popup+delta_new
-                
+            if time.time() > popup_start + timer_popup or popup_first_run:
+                window = create_window_note()
                 popup_start = time.time()
+                popup_first_run = False
+
                 now_temp = datetime.now()
                 current_time = now_temp.strftime('%H:%M:%S')
                 date = now_temp.strftime('%d-%b-%y').upper()
@@ -748,7 +555,7 @@ def run_popup_note(timer_popup, timer_action, temp_id):
                                 'task': util.task_doing,
                                 'outcome': tp_outcome,
                                 'nextact': tp_act
-                            }
+                             }
                         )
 
                     except:
@@ -772,8 +579,7 @@ def run_popup_note(timer_popup, timer_action, temp_id):
                         json.dump(json_tempnote, fp)
                     pass
 
-            # time.sleep(max(0, timer_popup - time.time() + popup_start) + randint(0, 15))  
-            time.sleep(compare_time - time.time())    
+            time.sleep(max(0, timer_popup - time.time() + popup_start) + randint(0, 15))
 
         except UnicodeDecodeError:
             pass
@@ -1050,7 +856,7 @@ if __name__ == '__main__':
         capture_images(util.timer_monitor, util.temp_id)
 
     if args.popup_note == 'on':
-        run_popup_note(util.timer_popup, util.timer_action, util.temp_id)
+        run_popup_note(util.timer_popup, util.timer_action, util.timer_exist, util.temp_id)
 
     if args.popup_monitor == 'on':
         run_popup_monitor(timer_monitor=30)

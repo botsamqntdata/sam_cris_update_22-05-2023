@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Terminal=true
+Name=SAM
+Icon=utilities-terminal
+Exec=gnome-terminal -e "bash -c 'cd /home/qtdata/sam;/home/qtdata/anaconda3/envs/sam/bin/python debugger.py;exit;$SHELL;'"
+Categories=Application;
+Name[en_US]=START_linux.desktop

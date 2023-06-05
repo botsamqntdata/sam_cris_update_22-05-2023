@@ -4,10 +4,10 @@ from addon import *
 
 random_agent = get_latest_user_agents()[0]
 USER_AGENT = {'User-Agent': random_agent}
-# USER_AGENT = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) ' +
-#    'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36'}
-# random_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) ' + \
-#    'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.80 Safari/537.36'
+#USER_AGENT = {'User-Agent':'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) ' +
+#    'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'}
+#random_agent = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) ' + \
+#    'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36'
 
 implicit_time_default = 15
 min_delay_default = 10
@@ -25,7 +25,6 @@ def init_browser(headless=False, user_agent=random_agent):
 
     if headless is True:
         option.add_argument('headless')
-
     option.add_argument('window-size=1920,1080')
     option.add_argument('hide-scrollbars')
     #option.add_argument('start-maximized')

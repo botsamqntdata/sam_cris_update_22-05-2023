@@ -25,6 +25,7 @@ def fetch_results(search_term, num_result=None, language_code='en', sup_page=Non
 
     response = requests.get(url, headers=user_agent)
     response.raise_for_status()
+
     return response.text
 
 
